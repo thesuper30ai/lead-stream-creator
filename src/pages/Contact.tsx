@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/landing/Footer";
@@ -213,8 +212,6 @@ const Contact = () => {
             <p className="contact-hero-copy">
               Connect with TheSuper30 and discover how strategic digital marketing, creative execution, and performance driven campaigns can help your business generate more leads, increase visibility, and achieve measurable growth.
             </p>
-            <nav aria-label="Breadcrumb" className="contact-breadcrumb"><Link to="/homepage">Home</Link><ArrowRight className="h-3 w-3" /><span>Contact Us</span></nav>
-
             {/* Trust Signals */}
             <div className="contact-hero-signals">
               {[
