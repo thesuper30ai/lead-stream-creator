@@ -18,8 +18,8 @@ import { submitFormToGoogleSheets } from "@/hooks/useFormSubmit";
 import popupImage from "@/assets/home-strategy-session.jpg";
 
 const DISMISS_KEY = "s30_lead_popup_dismissed";
-// DeferredUI mounts this after 3s, so 2s here lands the popup at ~5s total.
-const SHOW_DELAY_MS = 2000;
+// DeferredUI mounts this after 3s, so 27s here lands the popup at ~30s total.
+const SHOW_DELAY_MS = 27000;
 
 const LeadPopup = () => {
   const [open, setOpen] = useState(false);
