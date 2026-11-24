@@ -37,7 +37,7 @@ export const ClientLogosSection = () => {
             ))}
           </div>
           <p className="text-sm font-medium text-white">
-            Trusted by <span className="text-brand font-bold">50+ leading companies</span> across industries
+            Trusted by <span className="text-brand font-bold">250+ Brands</span> across industries
           </p>
         </div>
 

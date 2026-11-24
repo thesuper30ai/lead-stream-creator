@@ -353,7 +353,7 @@ const Home3 = () => (
             <div className="flex gap-1">{[1, 2, 3, 4, 5].map((i) => <Star key={i} className="h-5 w-5 fill-brand text-brand" />)}</div>
             <p className="mt-3 text-sm text-primary-foreground/70">4.8/5 Client Rating</p>
             <Eyebrow>Our Clients</Eyebrow>
-            <h2 className="text-3xl font-semibold leading-tight text-primary-foreground sm:text-4xl lg:text-5xl">Trusted by <span className="text-brand">50+ leading companies</span> across industries</h2>
+            <h2 className="text-3xl font-semibold leading-tight text-primary-foreground sm:text-4xl lg:text-5xl">Trusted by <span className="text-brand">250+ Brands</span> across industries</h2>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-5">
             {logos.map((l, i) => <div key={i} className="grid h-24 place-items-center rounded-2xl border border-primary-foreground/15 bg-primary-foreground/5 p-4"><img src={l} alt="Client logo" className="max-h-12 w-auto object-contain" loading="lazy" /></div>)}

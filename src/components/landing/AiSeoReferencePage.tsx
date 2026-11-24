@@ -162,7 +162,7 @@ export const AiSeoReferencePage = () => {
             <div className="flex items-center gap-1">
               {[1, 2, 3, 4, 5].map((item) => <Star key={item} className="h-4 w-4 fill-brand text-brand" />)}
             </div>
-            <p className="text-sm font-medium text-foreground">Trusted by <span className="font-bold text-brand">50+ leading companies</span> across industries</p>
+            <p className="text-sm font-medium text-foreground">Trusted by <span className="font-bold text-brand">250+ Brands</span> across industries</p>
           </div>
           <div className="overflow-hidden">
             <div className="flex animate-marquee gap-5" style={{ width: "max-content" }}>

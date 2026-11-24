@@ -167,7 +167,7 @@ const Rating = ({ light }: { light?: boolean }) => (
     </div>
     <div>
       <div className="flex items-center gap-1">{[1, 2, 3, 4, 5].map((i) => <Star key={i} className="h-3.5 w-3.5 fill-brand text-brand" />)}<span className={`ml-1 text-sm font-semibold ${light ? "text-primary-foreground" : "text-foreground"}`}>4.9/5</span></div>
-      <p className={`text-xs ${light ? "text-primary-foreground/70" : "text-muted-foreground"}`}>Trusted by <b>50+</b> leading companies</p>
+      <p className={`text-xs ${light ? "text-primary-foreground/70" : "text-muted-foreground"}`}>Trusted by <b>250+</b> Brands</p>
     </div>
   </div>
 );
@@ -199,7 +199,7 @@ export const AiSeoV2Page = () => {
               <Link to="/our-work" className="text-sm font-semibold text-primary-foreground underline-offset-4 hover:underline">View Case Studies</Link>
             </div>
 
-            <p className="mt-12 text-sm text-primary-foreground/80">Trusted by <b className="text-primary-foreground">250+</b> Brands</p>
+            <p className="mt-12 text-sm text-primary-foreground/80">Trusted by <b className="text-primary-foreground">250+</b> Brands That Value Real Results</p>
             <div className="mx-auto mt-6 grid max-w-4xl grid-cols-2 gap-y-8 md:grid-cols-4">
               {stats.map(([v, l], i) => (
                 <div key={l} className={`px-4 ${i > 0 ? "md:border-l md:border-primary-foreground/15" : ""}`}>
@@ -415,7 +415,7 @@ export const AiSeoV2Page = () => {
                 <Pill onClick={openAudit}>Get My Free SEO Audit</Pill>
                 <div>
                   <div className="flex items-center gap-1 text-brand">{[1, 2, 3, 4, 5].map((star) => <Star key={star} className="h-3.5 w-3.5 fill-brand" />)}<span className="ml-2 text-sm font-semibold text-primary-foreground">4.9/5</span></div>
-                  <p className="mt-2 text-xs text-primary-foreground/70">Trusted by 50+ leading companies</p>
+                  <p className="mt-2 text-xs text-primary-foreground/70">Trusted by 250+ Brands</p>
                 </div>
               </div>
             </div>
