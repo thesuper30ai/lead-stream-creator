@@ -328,8 +328,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
     ],
     hero: { tags: "UI/UX · Branding · Video · Photography", title: "Design Agency in Bangalore. Visuals That Earn", highlight: "Buyer Trust", sub: "Customers judge your credibility within seconds of seeing your website, packaging, or ads. Our graphic design services in Bangalore give your business sharp interfaces, brand kits, and studio shoots built to convert visitors." },
     about: { eyebrow: "DESIGN BUILT FOR SALES", title: "Look Like The Clear Leader", highlight: "Before You Pitch.", text: "Outdated websites and mismatched brochures cost you deals before your sales team even speaks. As a graphic design agency in Bangalore serving software firms, consumer brands, and clinics, we align your product interfaces, logos, and shoots so buyers immediately trust your price.", bullets: ["Consistent Brand Colours, Typography & Packaging Across Every Channel", "In-House Product Photography & Commercial Video Studio", "Fast Weekly Revisions Until Every File Is Print & Web Ready"], imageAlt: "Designers working on brand concepts" },
-    aboutCard: { value: "₹16 Cr+", label: "Client Revenue Generated" },
-    aboutStats: [["50+", "Brand Audits Delivered"], ["300%+", "Avg. Conversion Lift"]],
+    aboutCard: { value: "Designs That", label: "Win Trust Before You Pitch" },
+    aboutStats: [["In-House", "Design & Photo Studio"], ["Senior", "Designers On Every Project"]],
     ecosystem: {
       eyebrow: "THE CREATIVE ECOSYSTEM",
       title: "Interfaces, Brand Kits, And",
@@ -417,8 +417,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
     ],
     hero: { tags: "Website Content · Blogs · Scripts · PR", title: "Content Marketing Agency in Bangalore. Writing That Answers Buyer Questions And", highlight: "Sells", sub: "Buyers research every claim before booking a call. We write clear website pages, search-led articles, video scripts, and press features that earn trust and bring qualified enquiries." },
     about: { eyebrow: "WRITING THAT MOVES BUYERS", title: "Replace Generic Filler With", highlight: "Pages That Persuade.", text: "Most company blogs and service pages fail because they sound like every competitor in the market. Our writers interview your team, study real customer objections, and publish articles and landing pages that rank on Google, appear in AI answers, and turn readers into buyers.", bullets: ["Topics Chosen From Real Buyer Searches & Sales Call Questions", "Human Writers & Editors Across Web Copy, Articles, Scripts & PR", "Monthly Publishing Schedules Tracked To Enquiries & Revenue"], imageAlt: "Content team planning an editorial calendar" },
-    aboutCard: { value: "₹16 Cr+", label: "Client Revenue Generated" },
-    aboutStats: [["50+", "Content Audits Delivered"], ["300%+", "Avg. Organic Traffic Lift"]],
+    aboutCard: { value: "Content That", label: "Builds Authority & Sells" },
+    aboutStats: [["In-House", "Writers & Strategists"], ["SEO-First", "Content Frameworks"]],
     ecosystem: {
       eyebrow: "THE CONTENT ECOSYSTEM", title: "Search Articles, Video Scripts, And", highlight: "Media Proof.", text: "Every written asset supports the rest of your sales process, from the first Google search to the final proposal review.",
       pillars: [
@@ -553,8 +553,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
     ],
     hero: { tags: "E-commerce · WordPress · Custom Coded", title: "Website Design Company in Bangalore. Fast Sites Built To", highlight: "Sell", sub: "A slow, confusing website wastes every rupee you spend on ads and SEO. We design and code e-commerce stores, WordPress sites, and custom web applications that load in under two seconds, rank cleanly on Google, and turn visitors into enquiries." },
     about: { eyebrow: "BUILT FOR SPEED & SALES", title: "Turn More Website Visitors Into", highlight: "Paying Customers.", text: "Most company websites look like digital brochures that fail to answer buyer questions or load slowly on mobile data. Our designers, developers, and search engineers build sites structured around clear offers, fast checkout flows, and simple enquiry forms so your existing traffic brings more sales.", bullets: ["Mobile-First Layouts Tested Across Android & iOS Screens", "Clean Code, Schema Markup & Sub-Two-Second Load Speeds", "Simple Backend Controls So Your Team Updates Pages In Minutes"], imageAlt: "Web designers reviewing a website layout" },
-    aboutCard: { value: "₹16 Cr+", label: "Client Revenue Generated" },
-    aboutStats: [["50+", "Website Audits Delivered"], ["300%+", "Avg. Conversion Lift"]],
+    aboutCard: { value: "Websites Built", label: "To Turn Visitors Into Buyers" },
+    aboutStats: [["In-House", "Design & Development"], ["Conversion-First", "Page Structures"]],
     ecosystem: {
       eyebrow: "THE WEBSITE ECOSYSTEM", title: "Online Stores, CMS Sites, And", highlight: "Custom Web Builds.", text: "We match the right platform to your catalog size, internal team, and technical needs instead of forcing every client onto one template.",
       pillars: [
@@ -629,8 +629,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
     ],
     hero: { tags: "Bulk SMS · WhatsApp · RCS · Chatbots", title: "SMS & WhatsApp Marketing Company in Bangalore. Messages Customers Read In", highlight: "Minutes", sub: "Emails sit unread for days, while WhatsApp and SMS get opened within minutes. We set up DLT-approved SMS, official WhatsApp Business APIs, RCS campaigns, and automated chat replies that recover abandoned carts and book appointments." },
     about: { eyebrow: "DIRECT MOBILE REACH", title: "Reach Buyers On The Apps They", highlight: "Check All Day.", text: "Winning a new enquiry costs too much to lose them to slow follow-ups or unopened emails. We connect your CRM and online store to approved WhatsApp, SMS, and RCS flows so every lead gets an instant reply, timely payment link, or appointment reminder.", bullets: ["DLT Sender ID Registration & Meta WhatsApp Green-Tick Verification", "Automated Cart Recovery, COD Confirmation & Appointment Reminders", "Delivery, Read-Rate & INR Order Tracking In One Dashboard"], imageAlt: "Customer engagement team managing messaging campaigns" },
-    aboutCard: { value: "₹16 Cr+", label: "Client Revenue Generated" },
-    aboutStats: [["50+", "Messaging Audits Delivered"], ["300%+", "Avg. Reply Rate Lift"]],
+    aboutCard: { value: "Messages That", label: "Get Read & Answered" },
+    aboutStats: [["In-House", "Campaign Specialists"], ["Automation-First", "Messaging Flows"]],
     ecosystem: {
       eyebrow: "THE ENGAGEMENT ECOSYSTEM", title: "SMS Alerts, WhatsApp Chats, And", highlight: "Automated Follow-Ups.", text: "We link your website forms, checkout events, and sales inbox so every customer message triggers at the right moment without spam.",
       pillars: [
