@@ -241,8 +241,8 @@ export const AiSeoV2Page = () => {
           <div className="relative">
             <img src={evolvingImage} alt="People discovering businesses through search" width={1100} height={900} loading="lazy" className="aspect-[5/4] w-full rounded-3xl object-cover" />
             <div className="absolute -bottom-6 left-6 rounded-2xl bg-background p-5 shadow-lg sm:left-10">
-              <p className="text-3xl font-semibold text-foreground">₹16 Cr+</p>
-              <p className="text-sm text-muted-foreground">Client Revenue Generated</p>
+              <p className="text-3xl font-semibold text-foreground">265+</p>
+              <p className="text-sm text-muted-foreground">SEO Projects Delivered</p>
               <div className="mt-4 border-t border-border pt-4"><Rating /></div>
             </div>
           </div>
