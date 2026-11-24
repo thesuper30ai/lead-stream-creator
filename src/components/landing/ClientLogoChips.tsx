@@ -4,7 +4,7 @@ import { pdfClientLogos } from "@/data/pdfClientLogos";
 const byName = (n: string) => pdfClientLogos.find((l) => l.name.startsWith(n))!;
 
 export const logoGroups = {
-  stripAlt: [byName("Peptide"), byName("The Asian Kid"), byName("BuildingWorld")],
+  stripAlt: [byName("The Asian Kid"), byName("BuildingWorld")],
 };
 
 type Props = {
