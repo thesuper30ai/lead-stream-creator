@@ -81,9 +81,9 @@ const growthFramework = [
 ];
 
 const textTestimonials = [
-  { role: "CEO", quote: "The Super 30 transformed our entire digital presence — from SEO to paid ads to social media. Our qualified leads increased by 340% in just 6 months." },
-  { role: "Founder", quote: "Finally a digital marketing agency that delivers across all channels. Our organic traffic doubled while our ad ROAS hit 5x within the first quarter." },
-  { role: "CMO", quote: "Their integrated approach to SEO, ads, and social media gave us a unified growth strategy. We went from scattered campaigns to predictable revenue." },
+  { company: "Interiors & More", quote: "The Super 30's SEO team put us on page one for our most valuable interior design keywords. Organic enquiries now bring us a steady flow of project leads every month." },
+  { company: "Book My Scans", quote: "Our scan booking keywords jumped to the top of Google across multiple cities. Organic traffic has more than doubled and most of our bookings now come straight from search." },
+  { company: "ICS", quote: "From technical fixes to content and authority building, their SEO work transformed our visibility. We now rank for competitive course keywords and admissions enquiries keep growing." },
 ];
 
 const clientLogos = [
@@ -522,6 +522,7 @@ export const AiSeoV2Page = () => {
               <figure key={testimonial.quote} className="flex min-w-0 flex-col rounded-lg border border-border bg-background p-7 md:p-8">
                 <Quote aria-hidden="true" className="mb-6 h-9 w-9 text-brand" strokeWidth={1.5} />
                 <blockquote className="flex-1 text-lg leading-relaxed text-foreground">“{testimonial.quote}”</blockquote>
+                <figcaption className="mt-6 border-t border-border pt-4 text-sm font-semibold text-foreground">{testimonial.company}</figcaption>
               </figure>
             ))}
           </div>
