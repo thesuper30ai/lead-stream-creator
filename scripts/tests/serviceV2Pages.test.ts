@@ -40,11 +40,22 @@ test("social media hero metrics cover UGC content and followers", () => {
   expect(heroLabels("/social-media-marketing-agency-bangalore")).toContain("Followers Achieved");
 });
 
-test("every service page has its own four hero metrics", () => {
-  for (const page of serviceV2Pages) expect(page.heroStats?.length).toBe(4);
+test("service pages with hero metrics have their own four", () => {
+  const withStats = serviceV2Pages.filter((p) => p.heroStats);
+  for (const page of withStats) expect(page.heroStats?.length).toBe(4);
   // Google Ads intentionally shares the lead generation page's numbers.
-  const rest = serviceV2Pages.filter((p) => p.path !== "/google-ads-agency-bangalore");
+  const rest = withStats.filter((p) => p.path !== "/google-ads-agency-bangalore");
   expect(new Set(rest.map((p) => heroLabels(p.path).join("|"))).size).toBe(rest.length);
+});
+
+test("design, content, website and sms pages hide the banner numbers", () => {
+  const withoutStats = serviceV2Pages.filter((p) => !p.heroStats).map((p) => p.path);
+  expect(withoutStats).toEqual([
+    "/design-agency-bangalore",
+    "/content-marketing-agency-bangalore",
+    "/website-design-company-bangalore",
+    "/sms-marketing-agency-bangalore",
+  ]);
 });
 
 test("lead gen about card shows 1 Lakh+ Leads Generated", () => {
