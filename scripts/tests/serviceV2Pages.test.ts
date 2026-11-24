@@ -31,9 +31,8 @@ test("lead gen hero metrics are about leads and pipeline", () => {
   ]);
 });
 
-test("google ads hero metrics cover enquiry lift and revenue generated", () => {
-  expect(heroLabels("/google-ads-agency-bangalore")).toContain("Avg. Enquiry Lift");
-  expect(heroLabels("/google-ads-agency-bangalore")).toContain("Client Revenue Generated");
+test("google ads hero metrics match the lead generation page", () => {
+  expect(heroLabels("/google-ads-agency-bangalore")).toEqual(heroLabels("/lead-generation-agency-bangalore"));
 });
 
 test("social media hero metrics cover UGC content and followers", () => {
@@ -43,7 +42,9 @@ test("social media hero metrics cover UGC content and followers", () => {
 
 test("every service page has its own four hero metrics", () => {
   for (const page of serviceV2Pages) expect(page.heroStats?.length).toBe(4);
-  expect(new Set(serviceV2Pages.map((p) => heroLabels(p.path).join("|"))).size).toBe(serviceV2Pages.length);
+  // Google Ads intentionally shares the lead generation page's numbers.
+  const rest = serviceV2Pages.filter((p) => p.path !== "/google-ads-agency-bangalore");
+  expect(new Set(rest.map((p) => heroLabels(p.path).join("|"))).size).toBe(rest.length);
 });
 
 test("lead gen about card shows 1 Lakh+ Leads Generated", () => {

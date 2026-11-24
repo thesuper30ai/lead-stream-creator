@@ -231,11 +231,16 @@ export const serviceV2Pages: ServiceV2Config[] = [
     path: "/google-ads-agency-bangalore",
     seo: { title: "Google Ads Agency in Bangalore | PPC Service | Upto 10X ROAS", description: "Google Ads agency in Bangalore running Search, Shopping, YouTube and Performance Max campaigns focused on ROAS, lower CPC and qualified leads.", canonical: "/google-ads-agency-bangalore" },
     ctaLabel: "Get My Free Google Ads Audit",
+    testimonials: [
+      { company: "Metercube", quote: "The Super 30's lead generation campaigns filled our pipeline with serious buyers. Cost per qualified lead dropped month after month while enquiry volume kept climbing." },
+      { company: "ICS", quote: "Their ad funnels and landing pages turned our campaigns into a steady stream of admission enquiries. The lead quality is far better than anything we saw before." },
+      { company: "Digital Academy 360", quote: "From Google Ads to WhatsApp follow-ups, everything is connected. We now get a predictable flow of course enquiries every week, and our sales team closes more of them." },
+    ],
     hero: { tags: "Search · Shopping · YouTube · Performance Max", title: "Google Ads Agency in Bangalore. Win The Exact Search That", highlight: "Closes", sub: "When a buyer types their problem into Google, your offer should show up first. Our ppc services in Bangalore put your ads above competitors, filter out junk clicks, and turn search budgets into booked sales." },
-    heroStats: [["300%+", "Avg. Enquiry Lift"], ["50+", "Ad Audits Delivered"], ["₹16 Cr+", "Client Revenue Generated"], ["4.9/5", "Client Rating"]],
+    heroStats: [["200+", "Projects Delivered"], ["₹20 Cr+", "Ad Spends"], ["1 Lakh+", "Leads Generated"], ["4.9/5", "Client Rating"]],
     about: { eyebrow: "INTENT-FIRST SEARCH BUYING", title: "Capture Buyers The Second", highlight: "They Search To Purchase.", text: "High-intent search terms across Bangalore's software, clinic, and retail sectors cost more per click every quarter. Our AI google ads agency in Bangalore filters out non-buying traffic so your daily budget goes strictly toward serious enquiries.", bullets: ["Buyer-Intent Search Terms & Daily Negative Keyword Filtering", "Dedicated Landing Pages Built Around Each Search Term", "Live Conversion Tracking Tied To Closed INR Deals"], imageAlt: "Marketer analysing Google Ads performance" },
-    aboutCard: { value: "₹16 Cr+", label: "Client Revenue Generated" },
-    aboutStats: [["50+", "Ad Audits Delivered"], ["300%+", "Avg. Enquiry Lift"]],
+    aboutCard: { value: "1 Lakh+", label: "Leads Generated" },
+    aboutStats: [["₹20 Cr+", "Ad Spends"], ["200+", "Projects Delivered"]],
     ecosystem: {
       eyebrow: "THE GOOGLE ADS ECOSYSTEM",
       title: "Four Google Networks.",
@@ -277,8 +282,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
       { icon: Bot, title: "Automated Bid Management", text: "Data-backed bidding rules calibrated around actual sales calls and closed orders rather than cheap clicks." },
       { icon: Layers, title: "Landing Page Optimization", text: "Focused landing pages with clear offers and fast load speeds that convert more paid traffic." },
     ],
-    why: { pre: "Built For Business Owners Who", highlight: "Audit Every Click.", text: "Most ad accounts lose money on broad keywords left unchecked for months. Our AI PPC services in Bangalore audit your search terms every week, while our PPC agency in Bangalore team shifts spend straight into ads that close sales.", statValue: "10X", statLabel: "Peak Return On Ad Spend", points: [
-      { title: "250+ Ad Accounts Audited & Scaled", description: "Hands-on experience managing paid search budgets across B2B software, healthcare, real estate, and retail." },
+    why: { pre: "Built For Business Owners Who", highlight: "Audit Every Click.", text: "Most ad accounts lose money on broad keywords left unchecked for months. Our AI PPC services in Bangalore audit your search terms every week, while our PPC agency in Bangalore team shifts spend straight into ads that close sales.", statValue: "1 Lakh+", statLabel: "Leads Generated", points: [
+      { title: "200+ Projects Delivered", description: "Hands-on experience managing paid search budgets across B2B software, healthcare, real estate, and retail." },
       { title: "Automated Bid & Query Checks", description: "Custom scripts flag rising click costs and irrelevant search queries before they drain daily budgets." },
       { title: "30 Dedicated Paid Media Builders", description: "Search buyers, landing page designers, and tracking engineers working directly on your ad accounts." },
       { title: "Live Spend & Sales Dashboards", description: "Real-time visibility into every rupee spent, cost per enquiry, and exact revenue generated." },
