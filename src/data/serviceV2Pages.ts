@@ -33,7 +33,7 @@ export type ServiceV2Config = {
   team: { eyebrow: string; highlight: string; text: string };
   fit?: { eyebrow: string; title: string; highlight: string; text: string; good: { title: string; points: string[] }; bad: { title: string; points: string[] } };
   testimonialsHeading?: { title: string; highlight: string; text?: string };
-  testimonials?: { company: string; quote: string }[];
+  testimonials?: { company?: string; quote: string }[];
   finalCta?: { title: string; highlight: string; text: string; button: string };
   faqSlug?: string;
 };
