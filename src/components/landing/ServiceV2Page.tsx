@@ -491,10 +491,11 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center"><Eyebrow>Testimonials</Eyebrow><H2 pre={c.testimonialsHeading?.title ?? "What our"} hl={c.testimonialsHeading?.highlight ?? "clients say."} />{c.testimonialsHeading?.text && <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">{c.testimonialsHeading.text}</p>}</div>
             <div className="mt-12 grid gap-6 lg:grid-cols-3">
-              {testimonials.map((t) => (
+              {(c.testimonials ?? testimonials).map((t) => (
                 <figure key={t.quote} className="flex min-w-0 flex-col rounded-lg border border-border bg-background p-7 md:p-8">
                   <Quote aria-hidden="true" className="mb-6 h-9 w-9 text-brand" strokeWidth={1.5} />
                   <blockquote className="flex-1 text-lg leading-relaxed text-foreground">“{t.quote}”</blockquote>
+                  {"company" in t && <figcaption className="mt-6 border-t border-border pt-4 text-sm font-semibold text-foreground">{t.company}</figcaption>}
                 </figure>
               ))}
             </div>

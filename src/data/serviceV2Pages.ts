@@ -33,6 +33,7 @@ export type ServiceV2Config = {
   team: { eyebrow: string; highlight: string; text: string };
   fit?: { eyebrow: string; title: string; highlight: string; text: string; good: { title: string; points: string[] }; bad: { title: string; points: string[] } };
   testimonialsHeading?: { title: string; highlight: string; text?: string };
+  testimonials?: { company: string; quote: string }[];
   finalCta?: { title: string; highlight: string; text: string; button: string };
   faqSlug?: string;
 };
@@ -50,6 +51,11 @@ export const serviceV2Pages: ServiceV2Config[] = [
     path: "/lead-generation-agency-bangalore",
     seo: { title: "Lead Generation Agency in Bangalore | B2B Leads That Convert", description: "Trusted lead generation company in Bangalore helping B2B businesses attract & convert high-value leads. Real pipeline growth & measurable results. Let's Talk!", canonical: "/lead-generation-agency-bangalore" },
     ctaLabel: "Get My Free Lead Gen Audit",
+    testimonials: [
+      { company: "Metercube", quote: "The Super 30's lead generation campaigns filled our pipeline with serious buyers. Cost per qualified lead dropped month after month while enquiry volume kept climbing." },
+      { company: "ICS", quote: "Their ad funnels and landing pages turned our campaigns into a steady stream of admission enquiries. The lead quality is far better than anything we saw before." },
+      { company: "Digital Academy 360", quote: "From Google Ads to WhatsApp follow-ups, everything is connected. We now get a predictable flow of course enquiries every week, and our sales team closes more of them." },
+    ],
     hero: { tags: "Lead Generation · Paid Ads · Funnels · CRM", title: "Lead Generation Agency in Bangalore. Turn Clicks into Qualified", highlight: "Leads", sub: "We deliver data-backed lead generation services in Bangalore that turn high-intent clicks into sales-qualified enquiries and revenue." },
     heroStats: [["200+", "Projects Delivered"], ["₹20 Cr+", "Ad Spends"], ["1 Lakh+", "Leads Generated"], ["4.9/5", "Client Rating"]],
     about: { eyebrow: "BUILT FOR REVENUE", title: "Turn Ad Spend Into", highlight: "Sales-Ready Enquiries.", text: "As an AI lead generation agency in Bangalore and trusted B2B lead generation company in Bangalore, we connect targeted ads, conversion pages, and CRM routing into qualified enquiries.", bullets: ["Campaigns Built Around Ready-To-Buy Audiences", "High-Converting Landing Pages & Qualifying Funnels", "Lead Quality Scoring Tied To Closed Revenue"], imageAlt: "Sales team reviewing qualified leads" },

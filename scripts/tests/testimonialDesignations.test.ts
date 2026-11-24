@@ -17,9 +17,9 @@ describe("Testimonial sections on service pages", () => {
     expect(seoPage).not.toContain("{testimonial.role}");
   });
 
-  test("the shared service-page testimonial cards show the quote only", () => {
+  test("the shared service-page testimonial cards show the quote and optional company name only", () => {
     expect(servicePage).toContain("{t.quote}");
-    expect(servicePage).not.toContain("<figcaption");
+    expect(servicePage).toContain('"company" in t');
     expect(servicePage).not.toContain("{t.role}");
   });
 
