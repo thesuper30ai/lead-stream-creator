@@ -226,6 +226,8 @@ const LeadPopup = () => {
                   <SelectItem value="google-ads">Google Ads</SelectItem>
                   <SelectItem value="web-design">Web Design & Development</SelectItem>
                   <SelectItem value="branding">Branding & Design</SelectItem>
+                  <SelectItem value="content-marketing">Content Marketing</SelectItem>
+                  <SelectItem value="sms-whatsapp">SMS & WhatsApp Marketing</SelectItem>
                   <SelectItem value="multiple">Multiple Services</SelectItem>
                   <SelectItem value="other">Other</SelectItem>
                 </SelectContent>
