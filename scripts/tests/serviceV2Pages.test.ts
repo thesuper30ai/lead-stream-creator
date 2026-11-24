@@ -24,9 +24,9 @@ const heroLabels = (path: string) => serviceV2Pages.find((p) => p.path === path)
 
 test("lead gen hero metrics are about leads and pipeline", () => {
   expect(lead?.heroStats).toEqual([
-    ["300%+", "Avg. Pipeline Lift"],
-    ["50+", "Funnel Audits Delivered"],
-    ["₹16 Cr+", "Client Revenue Generated"],
+    ["200+", "Projects Delivered"],
+    ["₹20 Cr+", "Ad Spends"],
+    ["1 Lakh+", "Leads Generated"],
     ["4.9/5", "Client Rating"],
   ]);
 });
@@ -46,8 +46,8 @@ test("every service page has its own four hero metrics", () => {
   expect(new Set(serviceV2Pages.map((p) => heroLabels(p.path).join("|"))).size).toBe(serviceV2Pages.length);
 });
 
-test("lead gen revenue card shows ₹16 Cr+ Client Revenue Generated", () => {
-  expect(lead?.aboutCard).toEqual({ value: "₹16 Cr+", label: "Client Revenue Generated" });
+test("lead gen about card shows 1 Lakh+ Leads Generated", () => {
+  expect(lead?.aboutCard).toEqual({ value: "1 Lakh+", label: "Leads Generated" });
 });
 
 test("lead gen two-colour headings carry the supplied highlights", () => {

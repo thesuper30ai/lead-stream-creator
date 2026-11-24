@@ -51,10 +51,10 @@ export const serviceV2Pages: ServiceV2Config[] = [
     seo: { title: "Lead Generation Agency in Bangalore | B2B Leads That Convert", description: "Trusted lead generation company in Bangalore helping B2B businesses attract & convert high-value leads. Real pipeline growth & measurable results. Let's Talk!", canonical: "/lead-generation-agency-bangalore" },
     ctaLabel: "Get My Free Lead Gen Audit",
     hero: { tags: "Lead Generation · Paid Ads · Funnels · CRM", title: "Lead Generation Agency in Bangalore. Turn Clicks into Qualified", highlight: "Leads", sub: "We deliver data-backed lead generation services in Bangalore that turn high-intent clicks into sales-qualified enquiries and revenue." },
-    heroStats: [["300%+", "Avg. Pipeline Lift"], ["50+", "Funnel Audits Delivered"], ["₹16 Cr+", "Client Revenue Generated"], ["4.9/5", "Client Rating"]],
+    heroStats: [["200+", "Projects Delivered"], ["₹20 Cr+", "Ad Spends"], ["1 Lakh+", "Leads Generated"], ["4.9/5", "Client Rating"]],
     about: { eyebrow: "BUILT FOR REVENUE", title: "Turn Ad Spend Into", highlight: "Sales-Ready Enquiries.", text: "As an AI lead generation agency in Bangalore and trusted B2B lead generation company in Bangalore, we connect targeted ads, conversion pages, and CRM routing into qualified enquiries.", bullets: ["Campaigns Built Around Ready-To-Buy Audiences", "High-Converting Landing Pages & Qualifying Funnels", "Lead Quality Scoring Tied To Closed Revenue"], imageAlt: "Sales team reviewing qualified leads" },
-    aboutCard: { value: "₹16 Cr+", label: "Client Revenue Generated" },
-    aboutStats: [["50+", "Funnel Audits Delivered"], ["300%+", "Avg. Enquiry Lift"]],
+    aboutCard: { value: "1 Lakh+", label: "Leads Generated" },
+    aboutStats: [["₹20 Cr+", "Ad Spends"], ["200+", "Projects Delivered"]],
     ecosystem: {
       eyebrow: "THE LEAD ENGINE",
       title: "One Funnel. Every Channel.",
@@ -96,8 +96,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
       { icon: Bot, title: "CRM & Automation", text: "Instant lead routing, WhatsApp alerts, and automated follow-ups synced directly with your CRM." },
       { icon: BarChart3, title: "Lead Analytics & Reporting", text: "Clear dashboards tracking cost per qualified lead, booked calls, and exact revenue generated." },
     ],
-    why: { pre: "Lead Strategy Tied", highlight: "Directly To Sales.", text: "Our AI lead generation services in Bangalore focus on buyers ready to purchase. We align ad targeting, landing pages, and instant CRM follow-up to fill your sales calendar.", statValue: "300%+", statLabel: "Average Lead Growth", points: [
-      { title: "250+ Projects Delivered", description: "Proven lead generation across B2B SaaS, e-commerce, healthcare, and high-growth Indian brands." },
+    why: { pre: "Lead Strategy Tied", highlight: "Directly To Sales.", text: "Our AI lead generation services in Bangalore focus on buyers ready to purchase. We align ad targeting, landing pages, and instant CRM follow-up to fill your sales calendar.", statValue: "1 Lakh+", statLabel: "Leads Generated", points: [
+      { title: "200+ Projects Delivered", description: "Proven lead generation across B2B SaaS, e-commerce, healthcare, and high-growth Indian brands." },
       { title: "AI-Powered Qualification", description: "Smart scoring and automated WhatsApp follow-ups that filter junk leads before sales calls." },
       { title: "30 Dedicated Growth Builders", description: "Media buyers, landing page builders, and CRM engineers working directly on your funnel." },
       { title: "Revenue-Tied Reporting", description: "Monthly dashboards tracking cost per lead, SQL rates, and revenue closed." },
