@@ -26,6 +26,7 @@ import {
   Shield,
   Heart,
   CheckCircle2,
+  Briefcase, UserCheck, Repeat,
 } from "lucide-react";
 
 const values = [
@@ -112,7 +113,7 @@ const About = () => {
               <h2>The Best <span className="text-brand">Digital Marketing Experts</span> Driving Measurable Business Growth</h2>
               <p className="about-copy">Success in today's digital landscape requires more than marketing tools. Our team of digital marketing experts combines industry experience, strategic insights, and performance driven execution to help businesses increase visibility, generate quality leads, and achieve sustainable growth.</p>
               <div className="about-intro-details">
-                <div className="about-mini-stats"><div><strong>279+</strong><span>Projects Delivered</span></div><div><strong>1 Lakh+</strong><span>Leads Generated</span></div></div>
+                <div className="about-mini-stats">{[[Briefcase, "279+", "Projects Delivered"], [UserCheck, "1 Lakh+", "Leads Generated"], [Repeat, "91%", "Client Retention Rate"]].map(([Icon, n, l]) => { const I = Icon as typeof Briefcase; return <div key={l as string}><I className="about-mini-icon h-5 w-5 text-brand" /><strong>{n as string}</strong><span>{l as string}</span></div>; })}</div>
               </div>
               <Button asChild className="rounded-full bg-brand text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us#contact-form-section">Get In Touch<ArrowRight className="ml-3 h-4 w-4" /></Link></Button>
             </div>

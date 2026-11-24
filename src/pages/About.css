@@ -29,10 +29,15 @@
 .about-photo-note strong,.about-photo-note span { display: block; }
 .about-photo-note strong { font-size: 1.4rem; }
 .about-photo-note span { font-size: .75rem; color: hsl(var(--muted-foreground)); }
-.about-intro-details { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 1.5rem 0 2rem; }
+.about-intro-details { display: grid; grid-template-columns: 1fr; gap: 2rem; margin: 1.5rem 0 2rem; }
 .about-mini-stats { display: flex; gap: 2rem; }
 .about-mini-stats strong { display: block; font-size: 2rem; font-weight: 600; }
 .about-mini-stats span { font-size: .75rem; color: hsl(var(--muted-foreground)); }
+.about-mini-stats .about-mini-icon { margin-bottom: .5rem; }
+.about-mini-stats { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; }
+.about-intro-details { width: 100%; }
+.about-mini-stats strong, .about-mini-stats span { white-space: nowrap; }
+@media(max-width:639px) { .about-mini-stats { gap: 1rem; } .about-mini-stats strong { font-size: 1.5rem; } .about-mini-stats span { white-space: normal; } }
 .about-checks { display: grid; gap: 1rem; font-size: .8rem; }
 .about-checks li { display: flex; gap: .65rem; align-items: center; }
 .about-brands { margin-top: 3.5rem; }
