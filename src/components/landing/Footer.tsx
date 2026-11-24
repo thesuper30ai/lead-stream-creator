@@ -129,7 +129,7 @@ export const Footer = forwardRef<HTMLElement>((props, ref) => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-10 mb-12">
           {/* Column 1: Company Branding */}
           <div className="col-span-2 md:col-span-1">
-            <Link to="/homepage" className="flex items-center mb-4 group">
+            <Link to="/" className="flex items-center mb-4 group">
               <img loading="lazy" decoding="async" 
                 src={super30FooterLogo} 
                 alt="The Super 30 — AI SEO Agency Bangalore" 

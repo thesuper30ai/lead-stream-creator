@@ -130,7 +130,7 @@ const Careers = () => {
                   <Button asChild size="lg" className="careers-btn-solid"><a href="#careers-openings">View Open Roles<ArrowRight className="ml-2 h-4 w-4" /></a></Button>
                   <Button asChild size="lg" variant="outline" className="careers-btn-outline"><a href="#careers-apply">Apply Now</a></Button>
                 </div>
-                <nav aria-label="Breadcrumb" className="careers-breadcrumb"><Link to="/homepage">Home</Link><ArrowRight className="h-3 w-3" /><span>Careers</span></nav>
+                <nav aria-label="Breadcrumb" className="careers-breadcrumb"><Link to="/">Home</Link><ArrowRight className="h-3 w-3" /><span>Careers</span></nav>
               </div>
               <div className="careers-hero-card">
                 <div className="flex items-start justify-between"><Briefcase className="h-11 w-11" strokeWidth={1.3} /><strong>{careerOpenings.length}</strong></div>

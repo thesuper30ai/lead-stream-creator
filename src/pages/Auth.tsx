@@ -105,7 +105,7 @@ const Auth = () => {
               </TabsContent>
             </Tabs>
             <div className="mt-6 text-center text-xs text-muted-foreground">
-              <Link to="/homepage" className="underline">← Back to site</Link>
+              <Link to="/" className="underline">← Back to site</Link>
             </div>
           </CardContent>
         </Card>

@@ -86,7 +86,7 @@ export const Navbar = ({ forceWhiteBg = false }: { forceWhiteBg?: boolean }) => 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/homepage" className="flex items-center shrink-0">
+          <Link to="/" className="flex items-center shrink-0">
             <img
               src={super30Logo}
               alt="The Super 30 — AI SEO Agency Bangalore"
@@ -139,7 +139,7 @@ export const Navbar = ({ forceWhiteBg = false }: { forceWhiteBg?: boolean }) => 
                   )
                 ) : (
                   <Link
-                    to={item.href || "/homepage"}
+                    to={item.href || "/"}
                     className={`px-3 py-2 text-sm font-medium rounded-lg transition-all duration-200 block ${
                       location.pathname === item.href
                         ? "text-[hsl(var(--brand-orange))]"
@@ -344,7 +344,7 @@ export const Navbar = ({ forceWhiteBg = false }: { forceWhiteBg?: boolean }) => 
                   </>
                 ) : (
                   <Link
-                    to={item.href || "/homepage"}
+                    to={item.href || "/"}
                     className={`block px-4 py-3 rounded-xl font-medium transition-all duration-200 ${
                       location.pathname === item.href
                         ? "text-[hsl(var(--brand-orange))] bg-[hsl(var(--brand-orange))]/10"
