@@ -94,7 +94,7 @@ const About = () => {
               <Button size="lg" variant="outline" onClick={() => setEnquiryOpen(true)} className="about-outline rounded-full"><MessageCircle className="mr-2 h-4 w-4" />Enquire Now<ArrowRight className="ml-3 h-4 w-4" /></Button>
             </div>
             <div className="about-credentials">
-              {["30+ In-House Experts", "Ex-Google Leadership", "98% Client Satisfaction"].map((label) => <span key={label}><Award className="h-4 w-4 text-brand" />{label}</span>)}
+              {["30+ In-House Experts", "Ex-Google Leadership", "91% Client Retention Rate"].map((label) => <span key={label}><Award className="h-4 w-4 text-brand" />{label}</span>)}
             </div>
           </div>
         </section>
@@ -114,7 +114,7 @@ const About = () => {
               <h2>The Best <span className="text-brand">Digital Marketing Experts</span> Driving Measurable Business Growth</h2>
               <p className="about-copy">Success in today's digital landscape requires more than marketing tools. Our team of digital marketing experts combines industry experience, strategic insights, and performance driven execution to help businesses increase visibility, generate quality leads, and achieve sustainable growth.</p>
               <div className="about-intro-details">
-                <div className="about-mini-stats"><div><strong>300+</strong><span>Projects</span></div><div><strong>50+</strong><span>Clients</span></div></div>
+                <div className="about-mini-stats"><div><strong>279+</strong><span>Projects Delivered</span></div><div><strong>1 Lakh+</strong><span>Leads Generated</span></div></div>
                 <ul className="about-checks">{["Ex-Google Experts", "AI-Powered Solutions", "Results-Driven"].map(item => <li key={item}><CheckCircle2 className="h-4 w-4 text-brand shrink-0" />{item}</li>)}</ul>
               </div>
               <Button asChild className="rounded-full bg-brand text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us">Get In Touch<ArrowRight className="ml-3 h-4 w-4" /></Link></Button>
@@ -131,7 +131,7 @@ const About = () => {
             </div>
             <div className="about-growth-grid">
               <article className="about-growth-story"><img src={heroImage} alt="A collaborative marketing team" loading="lazy" /><div><h3>AI + Human expertise</h3><p>Our internet marketing company combines ex-Google expertise with proprietary AI tools to deliver enterprise-grade results at founder-friendly prices.</p></div></article>
-              <article className="about-growth-feature"><Target className="h-8 w-8" /><strong>₹50Cr+</strong><h3>Revenue</h3><p>Results-based approach.<br />AI-Powered Strategy.</p></article>
+              <article className="about-growth-feature"><Target className="h-8 w-8" /><strong>₹100 Cr+</strong><h3>Revenue Generated</h3><p>Results-based approach.<br />AI-Powered Strategy.</p></article>
               <div className="about-growth-promises"><p className="about-eyebrow">BUILT ON TRUST</p><h3>Your growth.<br />Our commitment.</h3><ul className="about-checks">{["No long-term lock-ins", "Transparent pricing", "Results-based approach", "AI + Human expertise"].map(item => <li key={item}><CheckCircle2 className="h-4 w-4 shrink-0 text-brand" />{item}</li>)}</ul></div>
             </div>
             <div className="about-values">{values.map(value => <article key={value.title} className="about-value"><value.icon /><h3>{value.title}</h3><p>{value.description}</p></article>)}</div>

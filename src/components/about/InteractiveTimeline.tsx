@@ -30,10 +30,10 @@ const milestones = [
   },
   {
     year: "2024",
-    title: "300+ Clients Milestone",
-    description: "Crossed 300 successful projects with over ₹50Cr revenue generated for clients.",
+    title: "₹50 Cr+ Revenue Milestone",
+    description: "Crossed ₹50Cr in revenue generated for clients across SEO, ads and lead generation.",
     icon: Trophy,
-    stats: { clients: 300, team: 40 },
+    stats: { clients: 220, team: 40 },
     expanded: "A testament to our results-driven approach. Each project represents a real business transformed.",
   },
   {
@@ -41,7 +41,7 @@ const milestones = [
     title: "The Super 30",
     description: "Rebranded as The Super 30, focusing on AI-first marketing for ambitious founders.",
     icon: Sparkles,
-    stats: { clients: "350+", team: "50+" },
+    stats: { clients: "279+", team: "50+" },
     expanded: "Our new identity reflects our commitment: deliver enterprise-grade AI marketing to the top 30% of ambitious businesses.",
   },
 ];
@@ -131,7 +131,7 @@ export const InteractiveTimeline = () => {
                               <div className="text-xl md:text-2xl font-bold text-brand-gradient">
                                 {milestone.stats.clients}
                               </div>
-                              <p className="text-xs text-muted-foreground">Clients</p>
+                              <p className="text-xs text-muted-foreground">Projects</p>
                             </div>
                             <div className="text-center">
                               <div className="text-xl md:text-2xl font-bold text-brand-gradient">

@@ -90,9 +90,9 @@ const Home2 = () => (
               <div className="mt-8"><PillCta to="/contact-us">Book a Free Consultation</PillCta></div>
             </div>
             <div className="rounded-2xl border border-primary-foreground/15 bg-primary-foreground/10 p-7 backdrop-blur-md">
-              <div className="flex items-start justify-between"><Search className="h-12 w-12 text-primary-foreground" strokeWidth={1.3} /><p className="text-5xl font-semibold text-primary-foreground">300%+</p></div>
-              <h3 className="mt-8 text-xl font-semibold text-primary-foreground">Average Traffic Growth</h3>
-              <p className="mt-2 text-sm leading-relaxed text-primary-foreground/75">Measured across our clients' AI SEO and growth programs.</p>
+              <div className="flex items-start justify-between"><TrendingUp className="h-12 w-12 text-primary-foreground" strokeWidth={1.3} /><p className="text-5xl font-semibold text-primary-foreground">₹100 Cr+</p></div>
+              <h3 className="mt-8 text-xl font-semibold text-primary-foreground">Revenue Generated</h3>
+              <p className="mt-2 text-sm leading-relaxed text-primary-foreground/75">Across 279+ projects delivered, with a 91% client retention rate.</p>
             </div>
           </div>
           <div className="grid gap-8 border-t border-primary-foreground/15 py-8 md:grid-cols-3">
@@ -136,8 +136,8 @@ const Home2 = () => (
               </div>
               <div className="rounded-3xl bg-background p-7">
                 <TrendingUp className="h-10 w-10 text-brand" strokeWidth={1.4} />
-                <p className="mt-8 text-3xl font-semibold text-foreground">₹16 Cr+</p>
-                <p className="mt-1 font-medium text-foreground">Client Revenue Influenced</p>
+                <p className="mt-8 text-3xl font-semibold text-foreground">279+</p>
+                <p className="mt-1 font-medium text-foreground">Projects Delivered</p>
               </div>
             </div>
           </div>
@@ -216,8 +216,8 @@ const Home2 = () => (
                 <h3 className="text-2xl font-semibold">Acceleration</h3>
                 <p className="mt-3 leading-relaxed text-primary-foreground/80">We turn bold creative ideas and live data into compounding revenue.</p>
                 <div className="mt-4 grid grid-cols-2 gap-4 border-t border-primary-foreground/20 pt-4">
-                  <div><p className="text-3xl font-semibold">300%+</p><p className="mt-1 text-sm text-primary-foreground/75">Average Traffic Lift</p></div>
-                  <div className="border-l border-primary-foreground/20 pl-6"><p className="text-3xl font-semibold">50+</p><p className="mt-1 text-sm text-primary-foreground/75">Growth Audits Delivered</p></div>
+                  <div><p className="text-3xl font-semibold">1 Lakh+</p><p className="mt-1 text-sm text-primary-foreground/75">Leads Generated</p></div>
+                  <div className="border-l border-primary-foreground/20 pl-6"><p className="text-3xl font-semibold">91%</p><p className="mt-1 text-sm text-primary-foreground/75">Client Retention Rate</p></div>
                 </div>
               </div>
             </div>
