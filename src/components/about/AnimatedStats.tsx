@@ -4,7 +4,7 @@ const stats = [
   { value: 10, suffix: "+", label: "Years Experience", duration: 2000 },
   { value: 300, suffix: "+", label: "Projects Delivered", duration: 2500 },
   { value: 50, prefix: "₹", suffix: "Cr+", label: "Revenue Generated", duration: 2000 },
-  { value: 95, suffix: "%", label: "Client Retention", duration: 1500 },
+  { value: 91, suffix: "%", label: "Client Retention Rate", duration: 1500 },
 ];
 
 const useCountUp = (end: number, duration: number, shouldStart: boolean) => {

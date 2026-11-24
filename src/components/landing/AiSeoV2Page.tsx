@@ -397,7 +397,7 @@ export const AiSeoV2Page = () => {
               <div className="divide-y divide-primary-foreground/15">
                 {[
                   { title: "265+ SEO Projects Delivered", description: "Proven search execution across SaaS, e-commerce, healthcare, and high-growth Indian brands.", image: evolvingImage },
-                  { title: "92% Client Retention", description: "Brands stay because rankings compound into predictable monthly inbound enquiries.", image: heroImage },
+                  { title: "91% Client Retention Rate", description: "Brands stay because rankings compound into predictable monthly inbound enquiries.", image: heroImage },
                   { title: "AI Search Ready", description: "Structured for citations across ChatGPT, Perplexity, and Google AI Overviews alongside traditional search.", image: featuredSearchImage },
                   { title: "30 Dedicated SEO Builders", description: "Dedicated technical engineers, content strategists, and link builders working directly on your website.", image: partnerImage },
                   { title: "Revenue-Tied Reporting", description: "Monthly dashboards tracking keyword movement, qualified leads, and exact INR revenue generated.", image: realGrowthImage },
