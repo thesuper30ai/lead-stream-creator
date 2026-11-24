@@ -36,9 +36,9 @@ test("google ads hero metrics cover enquiry lift and revenue generated", () => {
   expect(heroLabels("/google-ads-agency-bangalore")).toContain("Client Revenue Generated");
 });
 
-test("social media hero metrics cover engagement lift", () => {
-  expect(heroLabels("/social-media-marketing-agency-bangalore")).toContain("Avg. Engagement Lift");
-  expect(heroLabels("/social-media-marketing-agency-bangalore")).toContain("Client Revenue Generated");
+test("social media hero metrics cover UGC content and followers", () => {
+  expect(heroLabels("/social-media-marketing-agency-bangalore")).toContain("UGC Content Delivered");
+  expect(heroLabels("/social-media-marketing-agency-bangalore")).toContain("Followers Achieved");
 });
 
 test("every service page has its own four hero metrics", () => {

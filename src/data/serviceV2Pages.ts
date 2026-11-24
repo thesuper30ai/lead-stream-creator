@@ -142,10 +142,10 @@ export const serviceV2Pages: ServiceV2Config[] = [
     seo: { title: "Social Media Marketing Agency in Bangalore | SMM Services", description: "Social media marketing agency in Bangalore offering content, reels, paid social and community management that grow reach, engagement and leads.", canonical: "/social-media-marketing-agency-bangalore" },
     ctaLabel: "Get My Free Social Audit",
     hero: { tags: "Instagram · LinkedIn · YouTube · Meta Ads", title: "Social Media Marketing Agency in Bangalore. Content And Ads That", highlight: "Sell", sub: "We plan, shoot, and run social media marketing services in Bangalore, combining short videos, creator posts, and targeted ads that bring daily customer enquiries." },
-    heroStats: [["300%+", "Avg. Engagement Lift"], ["50+", "Social Audits Delivered"], ["₹16 Cr+", "Client Revenue Generated"], ["4.9/5", "Client Rating"]],
+    heroStats: [["50+", "Projects Delivered"], ["2000+", "UGC Content Delivered"], ["1 Lakh+", "Followers Achieved"], ["4.9/5", "Client Rating"]],
     about: { eyebrow: "CONTENT THAT CONVERTS", title: "Stop Posting For Likes.", highlight: "Start Winning Buyers.", text: "Operating from India's tech and creative capital, our AI social media marketing agency in Bangalore helps software firms, startups, and consumer brands turn daily content into paying customers.", bullets: ["Monthly Posting Plans Based On Real Buyer Questions", "In-House Video Scripting, Shooting & Editing", "Paid Ad Spend Tracked Directly To INR Sales"], imageAlt: "Social media content planning session" },
-    aboutCard: { value: "₹16 Cr+", label: "Client Revenue Generated" },
-    aboutStats: [["50+", "Social Audits Delivered"], ["300%+", "Avg. Engagement Lift"]],
+    aboutCard: { value: "1 Lakh+", label: "Followers Achieved" },
+    aboutStats: [["2000+", "UGC Content Delivered"], ["50+", "Projects Delivered"]],
     ecosystem: {
       eyebrow: "THE SOCIAL ECOSYSTEM",
       title: "Organic Reach, Creator Proof, And",
@@ -187,7 +187,7 @@ export const serviceV2Pages: ServiceV2Config[] = [
       { icon: BarChart3, title: "Sales & Spend Reporting", text: "Monthly reports showing cost per enquiry, ad spend return, and exact INR revenue closed." },
       { icon: Zap, title: "Profile Conversion Setup", text: "Bios, pinned posts, and booking links structured to turn profile visitors into enquiries." },
     ],
-    why: { pre: "In-House Video Production Meets", highlight: "Disciplined Ad Buying.", text: "Our AI social media marketing services in Bangalore replace random posting with a clear sales routine. We shoot fresh videos weekly, test ads with real data, and scale what brings customers.", statValue: "250+", statLabel: "Projects Delivered", points: [
+    why: { pre: "In-House Video Production Meets", highlight: "Disciplined Ad Buying.", text: "Our AI social media marketing services in Bangalore replace random posting with a clear sales routine. We shoot fresh videos weekly, test ads with real data, and scale what brings customers.", statValue: "50+", statLabel: "Projects Delivered", points: [
       { title: "In-House Video & Design Team", description: "Dedicated editors, designers, and writers shipping fresh reels and ad creatives every single week." },
       { title: "Data-Backed Ad Testing", description: "Rapid testing of video openings and headlines so you spend budget only on winning ads." },
       { title: "30 Dedicated Team Members", description: "Content planners, video editors, and paid ad buyers working directly on your accounts." },
