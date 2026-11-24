@@ -95,8 +95,8 @@ const clientLogos = [
   { src: lancesoftLogo, name: "Lancesoft" },
 ];
 
-const seoHeroStats = [["300%+", "Avg. Traffic Growth"], ["50+", "AI Audits Delivered"], ["INR 100Cr+", "Revenue Generated"], ["4.9/5", "Client Rating"]];
-const seoAboutStats = [["50+", "AI Audits Delivered"], ["300%+", "Avg. Traffic Growth"]];
+const seoHeroStats = [["265+", "SEO Projects Delivered"], ["579+", "AI Audits Delivered"], ["2500+", "Keywords Ranking"], ["4.9/5", "Client Rating"]];
+const seoAboutStats = [["579+", "AI Audits Delivered"], ["2500+", "Keywords Ranking"]];
 const stats = seoHeroStats;
 
 const showcaseLogos: { src: string; name: string; className?: string }[] = [
@@ -387,8 +387,8 @@ export const AiSeoV2Page = () => {
               <img src={partnerImage} alt="SEO specialists collaborating on a growth strategy" width={600} height={1000} loading="lazy" className="h-full min-h-[360px] w-full rounded-lg object-cover sm:min-h-[530px]" />
               <div className="flex min-w-0 flex-col gap-6">
                 <div className="py-6 text-center sm:py-8">
-                  <p className="text-4xl font-semibold text-brand sm:text-5xl lg:text-6xl">10,000+</p>
-                  <p className="mt-3 text-sm text-primary-foreground/70 sm:text-base">Page-One Keywords Ranked</p>
+                  <p className="text-4xl font-semibold text-brand sm:text-5xl lg:text-6xl">2500+</p>
+                  <p className="mt-3 text-sm text-primary-foreground/70 sm:text-base">Keywords Ranking</p>
                 </div>
                 <img src={realGrowthImage} alt="A professional search marketing workspace" width={600} height={800} loading="lazy" className="min-h-[230px] w-full flex-1 rounded-lg object-cover" />
               </div>
@@ -396,7 +396,7 @@ export const AiSeoV2Page = () => {
             <div className="flex min-w-0 flex-col justify-between">
               <div className="divide-y divide-primary-foreground/15">
                 {[
-                  { title: "250+ Projects Delivered", description: "Proven search execution across SaaS, e-commerce, healthcare, and high-growth Indian brands.", image: evolvingImage },
+                  { title: "265+ SEO Projects Delivered", description: "Proven search execution across SaaS, e-commerce, healthcare, and high-growth Indian brands.", image: evolvingImage },
                   { title: "92% Client Retention", description: "Brands stay because rankings compound into predictable monthly inbound enquiries.", image: heroImage },
                   { title: "AI Search Ready", description: "Structured for citations across ChatGPT, Perplexity, and Google AI Overviews alongside traditional search.", image: featuredSearchImage },
                   { title: "30 Dedicated SEO Builders", description: "Dedicated technical engineers, content strategists, and link builders working directly on your website.", image: partnerImage },
