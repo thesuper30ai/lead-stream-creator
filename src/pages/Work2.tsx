@@ -3,7 +3,7 @@ import { PageSeo } from "@/components/seo/PageSeo";
 import { ArrowRight, Award, MessageCircle, Search } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/landing/Footer";
-import { ClientLogosSection } from "@/components/landing/ClientLogosSection";
+import { ServiceLogoSection } from "@/components/landing/ServiceLogoSection";
 import { TestimonialSection } from "@/components/landing/TestimonialSection";
 import { BlogSection } from "@/components/landing/BlogSection";
 import { WorkPortfolioTabs } from "@/components/work/WorkPortfolioTabs";
@@ -38,7 +38,7 @@ const Work2 = () => {
             </div>
           </div>
         </section>
-        <div className="work2-brands"><ClientLogosSection /></div>
+        <ServiceLogoSection />
         <div className="work2-portfolio" id="work-portfolio"><WorkPortfolioTabs dark /></div>
         <div className="work2-testimonials" id="work-testimonials"><TestimonialSection /></div>
         <div className="work2-insights" id="work-blog"><BlogSection dark /></div>

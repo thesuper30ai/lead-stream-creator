@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/landing/Footer";
 import { UnifiedCTASection } from "@/components/landing/UnifiedCTASection";
-import { ClientLogosSection } from "@/components/landing/ClientLogosSection";
+import { ServiceLogoSection } from "@/components/landing/ServiceLogoSection";
 import { FAQSection } from "@/components/landing/FAQSection";
 
 import { TeamSection } from "@/components/about/TeamSection";
@@ -99,9 +99,7 @@ const About = () => {
           </div>
         </section>
 
-        <section id="about-logos" className="about-light about-band about-logos">
-          <div className="container mx-auto about-brands"><ClientLogosSection /></div>
-        </section>
+        <div id="about-logos"><ServiceLogoSection /></div>
 
         <section id="about-intro" className="about-light about-band">
           <div className="container mx-auto about-intro-grid">
