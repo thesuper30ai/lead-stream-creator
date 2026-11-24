@@ -30,10 +30,10 @@ const milestones = [
   },
   {
     year: "2024",
-    title: "₹50 Cr+ Revenue Milestone",
-    description: "Crossed ₹50Cr in revenue generated for clients across SEO, ads and lead generation.",
+    title: "100+ Client Milestone",
+    description: "Crossed 100+ clients served across SEO, ads and lead generation, delivering measurable growth for brands across industries.",
     icon: Trophy,
-    stats: { clients: 220, team: 40 },
+    stats: { clients: 100, team: 40 },
     expanded: "A testament to our results-driven approach. Each project represents a real business transformed.",
   },
   {
