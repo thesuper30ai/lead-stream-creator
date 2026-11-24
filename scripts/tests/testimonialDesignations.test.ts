@@ -11,9 +11,9 @@ const serviceTemplate = read("../../src/components/service/ServicePageTemplate.t
 const dmSection = read("../../src/components/digital-marketing/DMTestimonialsSection.tsx");
 
 describe("Testimonial sections on service pages", () => {
-  test("the SEO page testimonial cards show the quote only", () => {
+  test("the SEO page testimonial cards show the quote and company name only", () => {
     expect(seoPage).toContain("{testimonial.quote}");
-    expect(seoPage).not.toContain("<figcaption");
+    expect(seoPage).toContain("{testimonial.company}");
     expect(seoPage).not.toContain("{testimonial.role}");
   });
 
