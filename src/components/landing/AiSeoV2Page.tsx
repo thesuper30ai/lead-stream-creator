@@ -199,7 +199,7 @@ export const AiSeoV2Page = () => {
               <Link to="/our-work" className="text-sm font-semibold text-primary-foreground underline-offset-4 hover:underline">View Case Studies</Link>
             </div>
 
-            <p className="mt-12 text-sm text-primary-foreground/80">Trusted by <b className="text-primary-foreground">50+</b> Brands That Value Real Results</p>
+            <p className="mt-12 text-sm text-primary-foreground/80">Trusted by <b className="text-primary-foreground">250+</b> Brands</p>
             <div className="mx-auto mt-6 grid max-w-4xl grid-cols-2 gap-y-8 md:grid-cols-4">
               {stats.map(([v, l], i) => (
                 <div key={l} className={`px-4 ${i > 0 ? "md:border-l md:border-primary-foreground/15" : ""}`}>
