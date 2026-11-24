@@ -181,7 +181,7 @@ const ServicesGrid = ({ services, eyebrow, title, description, ctaText }: { serv
         {ctaText && (
           <div className="mt-10 md:mt-12 text-center">
             <Link
-              to="/contact-us"
+              to="/contact-us#contact-form-section"
               className="inline-flex items-center gap-2 bg-brand text-white px-8 py-3.5 rounded-full font-semibold hover:bg-brand/90 transition-colors"
             >
               {ctaText}
@@ -402,7 +402,7 @@ const FinalCTASection = ({ data }: { data: ServicePageConfig["finalCTA"] }) => (
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">{data.headline}</h2>
           <p className="text-white/70 text-base md:text-lg max-w-2xl mx-auto mb-8">{data.description}</p>
           <Link
-            to="/contact-us"
+            to="/contact-us#contact-form-section"
             className="inline-flex items-center gap-2 bg-brand text-white px-8 py-3.5 rounded-full font-semibold hover:bg-brand/90 transition-colors"
           >
             {data.buttonText}

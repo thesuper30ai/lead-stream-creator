@@ -92,7 +92,7 @@ export const ServicesBentoGrid = () => (
             <span className="text-brand">What</span> <span className="text-white">We Excel At</span>
           </h2>
         </div>
-        <Link to="/contact" className="inline-flex items-center gap-2 bg-white rounded-full px-4 sm:px-6 py-2.5 text-foreground font-semibold text-xs sm:text-sm w-fit">
+        <Link to="/contact-us#contact-form-section" className="inline-flex items-center gap-2 bg-white rounded-full px-4 sm:px-6 py-2.5 text-foreground font-semibold text-xs sm:text-sm w-fit">
           CONTACT US NOW
           <span className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-brand flex items-center justify-center">
             <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 text-white" />

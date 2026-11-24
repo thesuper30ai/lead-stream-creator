@@ -169,7 +169,7 @@ export const Navbar = ({ forceWhiteBg = false }: { forceWhiteBg?: boolean }) => 
                               {item.categories.map((cat) => (
                                 <div key={cat.label} className="min-w-0">
                                   <Link
-                                    to={cat.href || "/contact-us"}
+                                    to={cat.href || "/contact-us#contact-form-section"}
                                     className="block text-center px-2 py-2 rounded-full bg-primary/10 text-primary text-[13px] font-semibold leading-tight hover:bg-primary/15 transition-colors"
                                   >
                                     {cat.label}
@@ -194,7 +194,7 @@ export const Navbar = ({ forceWhiteBg = false }: { forceWhiteBg?: boolean }) => 
                                 6 industry hubs · 44+ sub-category specializations
                               </p>
                               <Link
-                                to="/contact-us"
+                                to="/contact-us#contact-form-section"
                                 className="inline-flex items-center gap-1.5 text-sm font-semibold text-[hsl(var(--brand-orange))] hover:underline"
                               >
                                 Talk to a strategist
@@ -243,7 +243,7 @@ export const Navbar = ({ forceWhiteBg = false }: { forceWhiteBg?: boolean }) => 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center">
             <Link
-              to="/contact-us"
+              to="/contact-us#contact-form-section"
               className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded-md px-4 py-2 text-sm font-semibold text-white transition-all duration-300 active:scale-[0.98] bg-[hsl(var(--brand-orange))] shadow-lg hover:scale-105 hover:bg-[hsl(var(--brand-orange))]/90 hover:shadow-xl"
             >
               Contact
@@ -359,7 +359,7 @@ export const Navbar = ({ forceWhiteBg = false }: { forceWhiteBg?: boolean }) => 
 
             <div className="pt-4 mt-2 border-t border-border/50">
               <Link
-                to="/contact-us"
+                to="/contact-us#contact-form-section"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="inline-flex h-10 w-full items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-semibold text-white bg-[hsl(var(--brand-orange))] shadow-lg hover:bg-[hsl(var(--brand-orange))]/90 transition-all"
               >

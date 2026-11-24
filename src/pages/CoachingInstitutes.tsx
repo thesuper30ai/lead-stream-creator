@@ -570,7 +570,7 @@ const CoachingInstitutes = () => {
               Tell us about your courses and batches, and we'll tell you where to start.
             </p>
             <Link
-              to="/contact-us"
+              to="/contact-us#contact-form-section"
               className="inline-flex h-11 items-center justify-center gap-2 rounded-full px-7 text-sm font-semibold text-white bg-[hsl(var(--brand-orange))] hover:bg-[hsl(var(--brand-orange))]/90 transition-all"
             >
               Talk to Our Education Team

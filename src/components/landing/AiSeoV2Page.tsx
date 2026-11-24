@@ -326,7 +326,7 @@ export const AiSeoV2Page = () => {
               <h2 id="seo-experts-heading" className="text-3xl font-semibold leading-tight text-foreground sm:text-4xl lg:text-5xl">Meet the <span className="text-brand">SEO Experts</span> Behind Your Growth</h2>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">Search strategists, content specialists, performance marketers and creatives — one focused team working to rank your brand everywhere people search.</p>
             </div>
-            <Pill to="/internet-marketing-agency">Meet the whole team</Pill>
+            <Pill to="/internet-marketing-agency#about-team">Meet the whole team</Pill>
           </div>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {seoExperts.map((m) => (

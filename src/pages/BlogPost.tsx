@@ -251,7 +251,7 @@ const BlogPost = () => {
               <p className="mt-1 text-lg font-medium md:text-xl">Turn marketing insight into measurable revenue.</p>
             </div>
             <Button asChild className="w-full rounded-full bg-editorial-accent text-primary-foreground hover:bg-editorial-accent/90 md:w-auto">
-              <Link to="/contact-us">Book a Free Consultation <ArrowRight /></Link>
+              <Link to="/contact-us#contact-form-section">Book a Free Consultation <ArrowRight /></Link>
             </Button>
           </div>
         </section>
@@ -317,7 +317,7 @@ const BlogPost = () => {
                 <h2>Find the biggest opportunities hiding in your digital strategy.</h2>
               </div>
               <Button asChild className="rounded-full bg-editorial-accent text-primary-foreground hover:bg-editorial-accent/90">
-                <Link to="/contact-us">Get Your Review <ArrowRight /></Link>
+                <Link to="/contact-us#contact-form-section">Get Your Review <ArrowRight /></Link>
               </Button>
             </div>
 
@@ -329,7 +329,7 @@ const BlogPost = () => {
               <h2 className="mt-3 max-w-2xl text-2xl font-medium leading-tight md:text-3xl">Build an AI-powered marketing strategy that delivers qualified leads.</h2>
               <p className="mt-4 max-w-2xl text-sm leading-relaxed text-primary-foreground/70 md:text-base">Work with The Super 30 on AI SEO, lead generation and performance marketing built around measurable outcomes.</p>
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-                <Button asChild size="lg" className="rounded-full bg-editorial-accent text-primary-foreground hover:bg-editorial-accent/90"><Link to="/contact-us">Book a Consultation <ArrowRight /></Link></Button>
+                <Button asChild size="lg" className="rounded-full bg-editorial-accent text-primary-foreground hover:bg-editorial-accent/90"><Link to="/contact-us#contact-form-section">Book a Consultation <ArrowRight /></Link></Button>
                 <Button asChild size="lg" variant="outline" className="rounded-full border-primary-foreground/40 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"><Link to="/our-work">See Our Work</Link></Button>
               </div>
             </section>
@@ -351,7 +351,7 @@ const BlogPost = () => {
                 <li className="flex gap-2"><CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-editorial-accent" />Lead generation roadmap</li>
                 <li className="flex gap-2"><CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-editorial-accent" />Performance marketing audit</li>
               </ul>
-              <Button asChild className="mt-7 w-full rounded-full bg-editorial-ink text-primary-foreground hover:bg-editorial-ink/90"><Link to="/contact-us">Talk to an Expert <ArrowRight /></Link></Button>
+              <Button asChild className="mt-7 w-full rounded-full bg-editorial-ink text-primary-foreground hover:bg-editorial-ink/90"><Link to="/contact-us#contact-form-section">Talk to an Expert <ArrowRight /></Link></Button>
             </section>
 
             <section className="border border-border p-6">

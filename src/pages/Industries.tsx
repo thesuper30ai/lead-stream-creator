@@ -28,7 +28,7 @@ const Industries = () => (
       <p className="mb-5 text-sm font-semibold uppercase tracking-wider text-brand">Industries We Serve</p>
       <h1 className="text-4xl leading-tight text-primary-foreground sm:text-5xl lg:text-6xl">Digital Marketing Built for <span className="text-brand">Your Industry</span></h1>
       <p className="hero-description mx-auto mt-6 max-w-3xl text-lg">From schools and D2C brands to hotels and B2B companies, we build AI SEO, lead generation and social media strategies around how your customers buy.</p>
-      <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-7 py-3 text-primary-foreground"><Link to="/contact-us">Talk to a Strategist<ArrowRight /></Link></Button>
+      <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-7 py-3 text-primary-foreground"><Link to="/contact-us#contact-form-section">Talk to a Strategist<ArrowRight /></Link></Button>
     </section>
 
     <ServicePageBand><ServiceClientLogos /></ServicePageBand>
@@ -68,7 +68,7 @@ const Industries = () => (
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold sm:text-4xl lg:text-5xl">Don&apos;t See Your <span className="text-brand">Industry?</span></h2>
           <p className="mx-auto mt-5 max-w-2xl text-muted-foreground">We work with businesses across many more sectors. Tell us about yours and we&apos;ll share a growth plan.</p>
-          <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-8 py-3 text-primary-foreground"><Link to="/contact-us">Get Free Consultation<ArrowRight /></Link></Button>
+          <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-8 py-3 text-primary-foreground"><Link to="/contact-us#contact-form-section">Get Free Consultation<ArrowRight /></Link></Button>
         </div>
       </section>
     </ServicePageBand>

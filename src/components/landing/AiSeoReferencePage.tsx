@@ -225,7 +225,7 @@ export const AiSeoReferencePage = () => {
           <div className="mt-9 text-center">
             <p className="text-sm text-muted-foreground">Don&apos;t see your industry? We work with all growth-focused businesses.</p>
             <div className="mt-5 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Button asChild size="lg" className="rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us">Get a Free Strategy Call <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
+              <Button asChild size="lg" className="rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us#contact-form-section">Get a Free Strategy Call <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
               <Button asChild size="lg" variant="outline" className="rounded-full border-border bg-transparent px-7 text-foreground hover:bg-muted"><Link to="/industries">Explore All Industries <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
             </div>
           </div>

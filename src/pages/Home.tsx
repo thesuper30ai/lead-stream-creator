@@ -223,7 +223,7 @@ const Home = () => {
             </p>
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg" className="rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark">
-                <Link to="/contact-us">Book a Free Consultation <ArrowRight className="ml-2 h-4 w-4" /></Link>
+                <Link to="/contact-us#contact-form-section">Book a Free Consultation <ArrowRight className="ml-2 h-4 w-4" /></Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="rounded-full bg-background/75 px-7 backdrop-blur-sm">
                 <Link to="/our-work"><CirclePlay className="mr-2 h-4 w-4 fill-brand text-brand" />Watch Our Story</Link>
@@ -331,7 +331,7 @@ const Home = () => {
               <p className="mt-3 text-base text-muted-foreground">Real strategies. Real rankings. Real business growth.</p>
             </div>
 
-            <Button asChild size="lg" className="mt-8 rounded-full bg-brand px-8 text-primary-foreground hover:bg-brand-dark"><Link to="/internet-marketing-agency">Meet Our Team <ArrowRight className="ml-3 h-5 w-5" /></Link></Button>
+            <Button asChild size="lg" className="mt-8 rounded-full bg-brand px-8 text-primary-foreground hover:bg-brand-dark"><Link to="/internet-marketing-agency#about-team">Meet Our Team <ArrowRight className="ml-3 h-5 w-5" /></Link></Button>
           </div>
         </div>
       </section>
@@ -405,7 +405,7 @@ const Home = () => {
           <div className="mt-9 text-center">
             <p className="text-sm text-muted-foreground">Don&apos;t see your industry? We work with all growth-focused businesses.</p>
             <div className="mt-5 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Button asChild size="lg" className="rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us">Get a Free Strategy Call <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
+              <Button asChild size="lg" className="rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us#contact-form-section">Get a Free Strategy Call <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
               <Button asChild size="lg" variant="outline" className="rounded-full border-border bg-transparent px-7 text-foreground hover:bg-muted"><Link to="/industries">Explore All Industries <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
             </div>
           </div>
@@ -425,7 +425,7 @@ const Home = () => {
               <h2 className="mt-3 text-4xl font-semibold leading-tight text-foreground sm:text-5xl lg:text-6xl">Meet Our <span className="text-brand">Super 30</span></h2>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">Strategists, search specialists, media experts, developers, and designers — one focused team built around your growth.</p>
             </div>
-            <Button asChild variant="outline" className="w-fit rounded-full border-border bg-background px-6"><Link to="/internet-marketing-agency">Meet the whole team <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
+            <Button asChild variant="outline" className="w-fit rounded-full border-border bg-background px-6"><Link to="/internet-marketing-agency#about-team">Meet the whole team <ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
           </div>
 
           <div className="mt-9 flex gap-2 overflow-x-auto pb-2" aria-label="Filter team by specialty">
@@ -477,7 +477,7 @@ const Home = () => {
 
           <div className="mt-8 flex justify-center">
             <Button asChild size="lg" className="rounded-full bg-brand px-8 text-primary-foreground hover:bg-brand-dark">
-              <Link to="/contact-us">Get Started <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/contact-us#contact-form-section">Get Started <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
           </div>
         </div>
@@ -487,7 +487,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="relative overflow-hidden rounded-3xl bg-foreground px-6 py-10 md:px-12 md:py-14 lg:flex lg:items-center lg:justify-between lg:gap-12">
             <div className="max-w-2xl"><p className="text-sm font-semibold uppercase tracking-wider text-brand">— Let’s grow together</p><h2 className="mt-4 text-3xl font-semibold text-primary-foreground md:text-4xl">Ready to turn your growth goals into a clearer plan?</h2><p className="mt-4 text-base text-primary-foreground/70">Book a free consultation and talk through the opportunities that matter most to your business.</p></div>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row lg:mt-0 lg:shrink-0"><Button asChild size="lg" className="rounded-full bg-brand text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us">Book a Free Consultation <ArrowRight className="ml-2 h-4 w-4" /></Link></Button><Button asChild size="lg" variant="outline-white" className="rounded-full"><a href="tel:+918904150555"><Users className="mr-2 h-4 w-4" />Talk to Our Team</a></Button></div>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row lg:mt-0 lg:shrink-0"><Button asChild size="lg" className="rounded-full bg-brand text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us#contact-form-section">Book a Free Consultation <ArrowRight className="ml-2 h-4 w-4" /></Link></Button><Button asChild size="lg" variant="outline-white" className="rounded-full"><a href="tel:+918904150555"><Users className="mr-2 h-4 w-4" />Talk to Our Team</a></Button></div>
           </div>
         </div>
       </section>

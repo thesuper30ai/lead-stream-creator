@@ -132,7 +132,7 @@ const services: Service[] = [
       { label: "Photography", href: "/photography-services-bangalore" },
     ],
     featuredTags: ["Video Production", "Photography"],
-    href: "/contact",
+    href: "/contact-us#contact-form-section",
   },
   {
     icon: Monitor,

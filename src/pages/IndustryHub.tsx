@@ -146,7 +146,7 @@ const IndustryHub = () => {
         <p className="mb-5 text-sm font-semibold uppercase tracking-wider text-brand">Solutions by Industry</p>
         <h1 className="text-4xl leading-tight text-primary-foreground sm:text-5xl lg:text-6xl">{industry.headline}</h1>
         <p className="hero-description mx-auto mt-6 max-w-3xl text-lg">{industry.description}</p>
-        <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-7 py-3 text-primary-foreground"><Link to="/contact-us">Talk to a Strategist<ArrowRight /></Link></Button>
+        <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-7 py-3 text-primary-foreground"><Link to="/contact-us#contact-form-section">Talk to a Strategist<ArrowRight /></Link></Button>
       </section>
       <ServicePageBand><ServiceClientLogos /></ServicePageBand>
 
@@ -202,7 +202,7 @@ const IndustryHub = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-semibold sm:text-4xl lg:text-5xl">Ready to Grow Your <span className="text-brand">{industry.name} Business?</span></h2>
             <p className="mx-auto mt-5 max-w-2xl text-muted-foreground">Get a free strategy session with our AI digital marketing experts in Bangalore.</p>
-            <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-8 py-3 text-primary-foreground"><Link to="/contact-us">Get Free Consultation<ArrowRight /></Link></Button>
+            <Button asChild variant="unstyled" className="mt-8 h-auto rounded-full bg-brand px-8 py-3 text-primary-foreground"><Link to="/contact-us#contact-form-section">Get Free Consultation<ArrowRight /></Link></Button>
           </div>
         </section>
       </ServicePageBand>

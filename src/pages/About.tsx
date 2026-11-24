@@ -115,7 +115,7 @@ const About = () => {
                 <div className="about-mini-stats"><div><strong>279+</strong><span>Projects Delivered</span></div><div><strong>1 Lakh+</strong><span>Leads Generated</span></div></div>
                 <ul className="about-checks">{["Ex-Google Experts", "AI-Powered Solutions", "Results-Driven"].map(item => <li key={item}><CheckCircle2 className="h-4 w-4 text-brand shrink-0" />{item}</li>)}</ul>
               </div>
-              <Button asChild className="rounded-full bg-brand text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us">Get In Touch<ArrowRight className="ml-3 h-4 w-4" /></Link></Button>
+              <Button asChild className="rounded-full bg-brand text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us#contact-form-section">Get In Touch<ArrowRight className="ml-3 h-4 w-4" /></Link></Button>
             </div>
           </div>
         </section>

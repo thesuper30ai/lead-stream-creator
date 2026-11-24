@@ -50,7 +50,7 @@ export const TeamSection = () => (
         <h2 id="about-team-heading" className="text-3xl font-semibold leading-tight text-foreground sm:text-4xl lg:text-5xl">Meet Our <span className="text-brand">Digital Marketing Experts</span></h2>
         <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">Our SEO specialists and PPC specialists work collaboratively to deliver integrated strategies for your growth.</p>
       </div>
-      <Button asChild className="group h-auto rounded-full bg-brand py-1.5 pl-6 pr-1.5 text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us">Get Started<span className="ml-3 flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground text-foreground"><ArrowUpRight className="h-4 w-4 transition group-hover:rotate-45" /></span></Link></Button>
+      <Button asChild className="group h-auto rounded-full bg-brand py-1.5 pl-6 pr-1.5 text-primary-foreground hover:bg-brand-dark"><Link to="/contact-us#contact-form-section">Get Started<span className="ml-3 flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground text-foreground"><ArrowUpRight className="h-4 w-4 transition group-hover:rotate-45" /></span></Link></Button>
       </div>
       <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {teamMembers.map(member => <TeamCard key={member.name} member={member} />)}

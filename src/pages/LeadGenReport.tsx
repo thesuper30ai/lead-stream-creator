@@ -539,7 +539,7 @@ const LeadGenReport = () => {
             Get a free lead generation audit and a custom funnel plan tailored to your business.
           </p>
           <Link
-            to="/contact-us"
+            to="/contact-us#contact-form-section"
             className="inline-flex items-center gap-2 bg-brand hover:bg-brand/90 text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all"
           >
             Get Your Free Lead Gen Audit

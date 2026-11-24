@@ -33,7 +33,7 @@ export const FAQSection = ({ slug = "home" }: { slug?: string } = {}) => {
             </h2>
           </div>
           <Link
-            to="/contact-us"
+            to="/contact-us#contact-form-section"
             className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand hover:gap-2.5 transition-all shrink-0"
           >
             View All FAQs <ArrowRight className="w-4 h-4" />

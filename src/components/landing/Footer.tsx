@@ -19,7 +19,7 @@ const services = [
 const company = [
   { name: "About / Team 30", href: "/internet-marketing-agency" },
   { name: "Our Work", href: "/our-work" },
-  { name: "Contact Us", href: "/contact-us" },
+  { name: "Contact Us", href: "/contact-us#contact-form-section" },
   { name: "Careers", href: "/careers" },
 ];
 

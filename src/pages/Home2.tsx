@@ -87,7 +87,7 @@ const Home2 = () => (
               <p className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-primary-foreground"><span className="h-2 w-2 rounded-full bg-brand" /> Premier AI Digital Marketing Agency</p>
               <h1 className="max-w-3xl text-[clamp(2rem,4.1vw,3.25rem)] font-semibold leading-[1.08] text-primary-foreground">The Digital Marketing Agency<br /><span className="text-brand">Built for Market Leaders</span></h1>
               <p className="mt-6 max-w-2xl text-base leading-relaxed text-primary-foreground/80 md:text-lg">Zero guesswork, unforgettable creatives, and smart AI that turn attention into compounding revenue growth.</p>
-              <div className="mt-8"><PillCta to="/contact-us">Book a Free Consultation</PillCta></div>
+              <div className="mt-8"><PillCta to="/contact-us#contact-form-section">Book a Free Consultation</PillCta></div>
             </div>
             <div className="rounded-2xl border border-primary-foreground/15 bg-primary-foreground/10 p-7 backdrop-blur-md">
               <div className="flex items-start justify-between"><TrendingUp className="h-12 w-12 text-primary-foreground" strokeWidth={1.3} /><p className="text-5xl font-semibold text-primary-foreground">₹100 Cr+</p></div>
@@ -132,7 +132,7 @@ const Home2 = () => (
               <div>
                 <h3 className="text-xl font-semibold text-foreground">AI-Driven Momentum</h3>
                 <p className="mt-3 leading-relaxed text-muted-foreground">Real-time optimization and creative agility that keep your brand ahead of the market.</p>
-                <div className="mt-7"><PillCta to="/internet-marketing-agency">Meet Our Team</PillCta></div>
+                <div className="mt-7"><PillCta to="/internet-marketing-agency#about-team">Meet Our Team</PillCta></div>
               </div>
               <div className="rounded-3xl bg-background p-7">
                 <TrendingUp className="h-10 w-10 text-brand" strokeWidth={1.4} />
@@ -255,7 +255,7 @@ const Home2 = () => (
                 </div>
               </div>
             </div>
-            <Link to="/contact-us" aria-label="Contact us" className="absolute left-[42%] top-6 grid h-28 w-28 -translate-x-1/2 place-items-center rounded-full border-4 border-foreground bg-brand text-primary-foreground sm:h-36 sm:w-36">
+            <Link to="/contact-us#contact-form-section" aria-label="Contact us" className="absolute left-[42%] top-6 grid h-28 w-28 -translate-x-1/2 place-items-center rounded-full border-4 border-foreground bg-brand text-primary-foreground sm:h-36 sm:w-36">
               <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full animate-[spin_14s_linear_infinite]"><defs><path id="wc" d="M50,50 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0" /></defs><text className="fill-current text-[9px] font-semibold tracking-[1.5px]"><textPath href="#wc">Contact Us * Contact Us * Contact Us *</textPath></text></svg>
               <span className="grid h-10 w-10 place-items-center rounded-full bg-background text-brand"><ArrowRight className="h-5 w-5" /></span>
             </Link>
@@ -286,7 +286,7 @@ const Home2 = () => (
         <div className="container relative mx-auto mt-12 px-4 sm:px-6 lg:px-8">
           <p className="flex flex-wrap items-center justify-center gap-3 text-center text-primary-foreground">
             <ClientLogoChips logos={logoGroups.stripAlt} size="strip" ring="border-foreground" />
-            Tired of slow, fragmented agency work? <Link to="/contact-us" className="font-semibold text-brand underline underline-offset-4">Talk to Our Strategists</Link>
+            Tired of slow, fragmented agency work? <Link to="/contact-us#contact-form-section" className="font-semibold text-brand underline underline-offset-4">Talk to Our Strategists</Link>
           </p>
         </div>
       </section>
@@ -320,7 +320,7 @@ const Home2 = () => (
           </div>
           <p className="mt-8 flex flex-wrap items-center justify-center gap-3 text-center text-foreground">
             <span className="grid h-10 w-10 place-items-center rounded-full bg-brand text-primary-foreground"><Phone className="h-4 w-4" /></span>
-            Ready to turn your marketing into a growth engine? <Link to="/contact-us" className="font-semibold text-brand underline underline-offset-4">Book a Strategy Call →</Link>
+            Ready to turn your marketing into a growth engine? <Link to="/contact-us#contact-form-section" className="font-semibold text-brand underline underline-offset-4">Book a Strategy Call →</Link>
           </p>
         </div>
       </section>
@@ -336,7 +336,7 @@ const Home2 = () => (
         <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div><Eyebrow>The people behind the work</Eyebrow><h2 className="text-3xl font-semibold leading-tight text-primary-foreground sm:text-4xl lg:text-5xl">Meet Our <span className="text-brand">Super 30</span></h2></div>
-            <PillCta to="/internet-marketing-agency">Meet the whole team</PillCta>
+            <PillCta to="/internet-marketing-agency#about-team">Meet the whole team</PillCta>
           </div>
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {[{ n: "Amit Singh", r: "Co-Founder", i: amitTeam }, { n: "Mayank", r: "VP - Business Growth", i: mayankTeam }, { n: "Praveen", r: "Senior Creative Manager", i: praveenTeam }, { n: "Harshavardhan", r: "Graphic Designer", i: harshavardhanTeam }].map((m) => (
@@ -376,7 +376,7 @@ const Home2 = () => (
             <h2 className="text-3xl font-semibold leading-tight text-primary-foreground sm:text-4xl lg:text-5xl">Let's build your <span className="text-brand">next growth engine.</span></h2>
             <p className="mx-auto mt-5 max-w-xl text-primary-foreground/70">Get a clear breakdown of your brand positioning, funnel gaps, and highest-leverage moves to accelerate revenue.</p>
             <div className="mt-9 flex flex-col items-center justify-center gap-5 sm:flex-row">
-              <PillCta to="/contact-us">Get My Free Growth Audit</PillCta>
+              <PillCta to="/contact-us#contact-form-section">Get My Free Growth Audit</PillCta>
               <Link to="/booking" className="inline-flex items-center gap-2 text-sm font-semibold text-primary-foreground hover:text-brand"><Phone className="h-4 w-4 text-brand" />Book a Strategy Call</Link>
             </div>
           </div>

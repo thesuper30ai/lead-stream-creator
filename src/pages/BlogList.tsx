@@ -199,7 +199,7 @@ const BlogList = forwardRef<HTMLElement>((_, ref) => {
                       <h2 className="mt-3 text-2xl font-medium leading-tight">Turn your next insight into measurable growth.</h2>
                       <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">Talk with our team about AI SEO, lead generation and performance marketing.</p>
                       <Button asChild className="mt-7 w-full rounded-full bg-editorial-accent text-primary-foreground hover:bg-editorial-accent/90">
-                        <Link to="/contact-us">Book a Consultation <ArrowRight /></Link>
+                        <Link to="/contact-us#contact-form-section">Book a Consultation <ArrowRight /></Link>
                       </Button>
                     </div>
                   </section>
@@ -328,7 +328,7 @@ const BlogList = forwardRef<HTMLElement>((_, ref) => {
                 <div className="relative flex flex-col gap-7 lg:flex-row lg:items-center lg:justify-between">
                   <div className="max-w-2xl"><p className="text-xs font-semibold uppercase text-editorial-accent">Ready to grow?</p><h2 className="mt-3 text-2xl font-medium leading-tight text-editorial-ink md:text-4xl">Build a smarter digital growth strategy.</h2><p className="mt-3 text-muted-foreground">Get a focused consultation with The Super 30 team.</p></div>
                   <div className="flex flex-col gap-3 sm:flex-row">
-                    <Button asChild size="lg" className="rounded-full bg-editorial-accent text-primary-foreground hover:bg-editorial-accent/90"><Link to="/contact-us">Get Free Consultation <ArrowRight /></Link></Button>
+                    <Button asChild size="lg" className="rounded-full bg-editorial-accent text-primary-foreground hover:bg-editorial-accent/90"><Link to="/contact-us#contact-form-section">Get Free Consultation <ArrowRight /></Link></Button>
                     <Button asChild size="lg" variant="outline" className="rounded-full border-editorial-ink text-editorial-ink hover:bg-background"><Link to="/our-work">See Our Work</Link></Button>
                   </div>
                 </div>

@@ -515,7 +515,7 @@ const DesignCTASection = () => {
               From social media creatives and marketing collateral to complete brand identity systems, our graphic design agency in Bangalore creates impactful visuals that strengthen brand presence, enhance communication, and support business growth.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link to="/contact-us">
+              <Link to="/contact-us#contact-form-section">
                 <Button size="lg" className="bg-brand-gradient text-white px-8 py-3 h-auto rounded-full group hover:opacity-90">
                   Get Started
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
