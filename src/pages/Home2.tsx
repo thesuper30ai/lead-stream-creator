@@ -11,7 +11,6 @@ import teamSofaJson from "@/assets/home/home-team-sofa.jpg";
 import teamCorridorJson from "@/assets/home/home-team-corridor.jpg";
 import teamPortraitJson from "@/assets/home/home-team-portrait.jpg";
 import strategyDuoJson from "@/assets/home/home-strategy-duo.jpg";
-import teamTabletJson from "@/assets/home/home-team-tablet.jpg";
 import teamWindowJson from "@/assets/home/home-team-window.jpg";
 import foundersJson from "@/assets/home/home-founders.jpg";
 import teamMacbookJson from "@/assets/home/home-team-macbook.jpg";
@@ -76,7 +75,7 @@ const Home2 = () => (
     <main className="min-h-screen bg-background pt-16 md:pt-20">
       {/* HERO */}
       <section className="relative overflow-hidden bg-foreground">
-        <img src={teamLaptopsJson} alt="The Super30 team reviewing campaign results together" className="absolute inset-0 h-full w-full object-cover" width={1541} height={1020} fetchPriority="high" />
+        <img src={teamLaptopsJson} alt="The Super30 team reviewing campaign results together" className="absolute inset-0 h-full w-full object-cover object-top" width={1541} height={1020} fetchPriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/95 via-foreground/75 to-foreground/40" />
         <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-foreground to-transparent" />
         {/* Warm orange glow, same as the other dark sections */}
@@ -109,13 +108,13 @@ const Home2 = () => (
       {/* ABOUT */}
       <section className="bg-muted/40 py-16 md:py-24">
         <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-14 lg:px-8">
-          <div className="relative grid grid-cols-[1.3fr_1fr] gap-4">
-            <img src={teamSofaJson} alt="The Super30 team planning around a laptop" className="mt-16 h-[420px] w-full rounded-3xl object-cover object-bottom sm:h-[560px]" width={1020} height={1541} loading="lazy" />
-            <div className="flex flex-col gap-4">
-              <img src={teamCorridorJson} alt="Super30 strategists walking through the office" className="h-[220px] w-full rounded-3xl object-cover sm:h-[300px]" loading="lazy" />
-              <img src={teamPortraitJson} alt="Super30 digital specialists" className="h-[220px] w-full rounded-3xl object-cover sm:h-[320px]" loading="lazy" />
+          <div className="relative grid grid-cols-[1.3fr_1fr] gap-3 sm:gap-4">
+            <img src={teamSofaJson} alt="The Super30 team planning around a laptop" className="h-[340px] w-full rounded-3xl object-cover sm:h-[520px]" width={1020} height={1541} loading="lazy" />
+            <div className="grid grid-rows-2 gap-3 sm:gap-4">
+              <img src={teamCorridorJson} alt="Super30 strategists walking through the office" className="h-full min-h-0 w-full rounded-3xl object-cover" loading="lazy" />
+              <img src={teamPortraitJson} alt="Super30 digital specialists" className="h-full min-h-0 w-full rounded-3xl object-cover" loading="lazy" />
             </div>
-            <Link to="/internet-marketing-agency" aria-label="More about us" className="absolute left-[56%] top-1/2 grid h-32 w-32 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full border-4 border-background bg-brand text-primary-foreground sm:h-40 sm:w-40">
+            <Link to="/internet-marketing-agency" aria-label="More about us" className="absolute left-[56.5%] top-1/2 grid h-24 w-24 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full border-4 border-background bg-brand text-primary-foreground sm:h-36 sm:w-36">
               <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full animate-[spin_14s_linear_infinite]"><defs><path id="c" d="M50,50 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0" /></defs><text className="fill-current text-[9px] font-semibold tracking-[1.5px]"><textPath href="#c">More About Us * More About Us * More About Us *</textPath></text></svg>
               <span className="grid h-11 w-11 place-items-center rounded-full bg-background text-brand"><ArrowRight className="h-5 w-5" /></span>
             </Link>
@@ -132,13 +131,14 @@ const Home2 = () => (
               <div>
                 <h3 className="text-xl font-semibold text-foreground">AI-Driven Momentum</h3>
                 <p className="mt-3 leading-relaxed text-muted-foreground">Real-time optimization and creative agility that keep your brand ahead of the market.</p>
-                <div className="mt-7"><PillCta to="/internet-marketing-agency#about-team">Meet Our Team</PillCta></div>
+                <div className="mt-7 hidden sm:block"><PillCta to="/internet-marketing-agency#about-team">Meet Our Team</PillCta></div>
               </div>
               <div className="rounded-3xl bg-background p-7">
                 <TrendingUp className="h-10 w-10 text-brand" strokeWidth={1.4} />
                 <p className="mt-8 text-3xl font-semibold text-foreground">279+</p>
                 <p className="mt-1 font-medium text-foreground">Projects Delivered</p>
               </div>
+              <div className="sm:hidden"><PillCta to="/internet-marketing-agency#about-team">Meet Our Team</PillCta></div>
             </div>
           </div>
         </div>
@@ -187,10 +187,7 @@ const Home2 = () => (
           <div className="grid gap-6 lg:grid-cols-3">
             {/* Alignment */}
             <div className="flex flex-col rounded-3xl border border-border bg-background p-6">
-              <div className="relative h-32">
-                <img src={strategyDuoJson} alt="Strategists aligning on a growth plan" className="absolute left-0 top-3 h-24 w-3/5 rounded-2xl object-cover" loading="lazy" />
-                <img src={teamTabletJson} alt="The Super30 team reviewing a plan on a tablet" className="absolute right-0 top-0 h-28 w-1/2 rounded-2xl border-4 border-background object-cover" loading="lazy" />
-              </div>
+              <img src={strategyDuoJson} alt="Strategists aligning on a growth plan" className="h-40 w-full rounded-2xl object-cover" loading="lazy" />
               <h3 className="mt-5 text-2xl font-semibold text-foreground">Alignment</h3>
               <p className="mt-3 leading-relaxed text-muted-foreground">We pair sharp brand strategists with smart AI to eliminate guesswork.</p>
               <div className="mt-4 border-t border-border pt-4">

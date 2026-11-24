@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ArrowRight, ChevronDown, ChevronRight, Phone } from "lucide-react";
-import super30Logo from "@/assets/super30-new-logo.png";
+import super30Logo from "@/assets/super30-new-logo.svg";
 
 interface SubItem {
   label: string;
@@ -25,7 +25,9 @@ interface NavMenuItem {
 const menuItems: NavMenuItem[] = [
   {
     label: "Digital Marketing",
+    href: "/digital-marketing-agency-bangalore",
     items: [
+      { label: "Digital Marketing Agency", href: "/digital-marketing-agency-bangalore" },
       { label: "SEO Services", href: "/seo-company-bangalore" },
       { label: "Lead Generation", href: "/lead-generation-agency-bangalore" },
       { label: "Social Media Marketing", href: "/social-media-marketing-agency-bangalore" },

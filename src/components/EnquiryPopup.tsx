@@ -1,5 +1,5 @@
 import { useState } from "react";
-import super30Logo from "@/assets/super30-new-logo.png";
+import super30Logo from "@/assets/super30-new-logo.svg";
 import { openThankYouPage } from "@/lib/thankYouRedirect";
 import {
   Dialog,
@@ -43,7 +43,14 @@ const roleOptions = [
 const serviceOptions = [
   { value: "ai-seo", label: "AI SEO" },
   { value: "performance-marketing", label: "Lead Generation" },
-  { value: "both", label: "Both Services" },
+  { value: "social-media", label: "Social Media Marketing" },
+  { value: "google-ads", label: "Google Ads & PPC" },
+  { value: "design", label: "Branding & Design" },
+  { value: "content-marketing", label: "Content Marketing" },
+  { value: "website-design", label: "Website Design & Development" },
+  { value: "sms-whatsapp", label: "SMS & WhatsApp Marketing" },
+  { value: "multiple", label: "Multiple Services" },
+  { value: "other", label: "Other" },
 ];
 
 const validateEmail = (email: string): boolean => {
@@ -148,7 +155,7 @@ export const EnquiryPopup = ({ open, onOpenChange }: EnquiryPopupProps) => {
     >
       <DialogContent className="sm:max-w-md bg-background/95 backdrop-blur-xl border border-border/40 shadow-2xl rounded-2xl p-6 sm:p-8">
         {/* Brand mark */}
-        <div className="flex items-center justify-center mx-auto">
+        <div className="flex items-center justify-start">
           <img loading="lazy" decoding="async"
             src={super30Logo}
             alt="Super30"
@@ -156,7 +163,7 @@ export const EnquiryPopup = ({ open, onOpenChange }: EnquiryPopupProps) => {
           />
         </div>
 
-        <DialogHeader className="text-center space-y-2">
+        <DialogHeader className="text-left sm:text-left space-y-2">
           <DialogTitle className="text-xl font-semibold tracking-tight">
             Get in Touch
           </DialogTitle>

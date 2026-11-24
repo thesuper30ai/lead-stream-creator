@@ -337,7 +337,7 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="grid md:grid-cols-2 gap-4">
+                  <div className="grid gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="contact-budget">Budget Range</Label>
                       <Select

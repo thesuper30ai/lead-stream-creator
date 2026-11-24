@@ -25,8 +25,8 @@ test("homepage shows ₹100 Cr+ revenue generated and drops old figures", () => 
 });
 
 test("team page shows the four company numbers", () => {
-  expect(about).toContain("<strong>279+</strong>");
+  expect(about).toContain(`"279+", "Projects Delivered"`);
   expect(about).toContain('"91% Client Retention Rate"');
-  expect(about).toContain("<strong>1 Lakh+</strong>");
+  expect(about).toContain(`"1 Lakh+", "Leads Generated"`);
   expect(about).toContain("<strong>₹100 Cr+</strong>");
 });

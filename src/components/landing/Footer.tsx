@@ -214,7 +214,7 @@ export const Footer = forwardRef<HTMLElement>((props, ref) => {
           </div>
 
           {/* Column 5: Contact */}
-          <div>
+          <div className="col-span-2 md:col-span-1">
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Contact</h3>
             <ul className="space-y-4">
               <li>
@@ -225,7 +225,7 @@ export const Footer = forwardRef<HTMLElement>((props, ref) => {
                   <span className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[hsl(var(--brand-orange))]/20 group-hover:border-[hsl(var(--brand-orange))]/30 transition-all duration-300">
                     <Mail className="w-4 h-4" />
                   </span>
-                  <span className="pt-1.5">hello@thesuper30.ai</span>
+                  <span className="pt-1.5 break-all">hello@thesuper30.ai</span>
                 </a>
               </li>
               <li>
@@ -236,7 +236,7 @@ export const Footer = forwardRef<HTMLElement>((props, ref) => {
                   <span className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[hsl(var(--brand-orange))]/20 group-hover:border-[hsl(var(--brand-orange))]/30 transition-all duration-300">
                     <Phone className="w-4 h-4" />
                   </span>
-                  <span className="pt-1.5">+91 89041 50555</span>
+                  <span className="pt-1.5 whitespace-nowrap">+91 89041 50555</span>
                 </a>
               </li>
               <li>
@@ -312,7 +312,7 @@ export const Footer = forwardRef<HTMLElement>((props, ref) => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
-            <p className="text-gray-500 text-sm whitespace-normal sm:whitespace-nowrap">
+            <p className="text-gray-500 text-sm text-center lg:text-left whitespace-normal sm:whitespace-nowrap">
               © {new Date().getFullYear()} The Super 30 | AI Marketing Agency, Bangalore, India. All rights reserved.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">

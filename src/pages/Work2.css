@@ -1,7 +1,7 @@
 .work2 { background: hsl(var(--work-paper)); color: hsl(var(--work-ink)); }
 .work2 h1, .work2 h2, .work2 h3 { letter-spacing: 0; }
 .work2-hero { position: relative; isolation: isolate; overflow: hidden; background: hsl(var(--work-ink)); color: hsl(var(--work-paper)); }
-.work2-hero-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; z-index: -3; }
+.work2-hero-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 20%; z-index: -3; }
 .work2-hero::before { content: ''; position: absolute; inset: 0; background: var(--work-hero-shade); z-index: -2; }
 .work2-hero::after { content: ''; position: absolute; inset: 0; background: var(--work-glow); z-index: -1; pointer-events: none; }
 .work2-hero h1 { font-size: 3.5rem; line-height: 1.15; font-weight: 600; max-width: 950px; }

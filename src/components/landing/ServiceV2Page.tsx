@@ -1,3 +1,4 @@
+import { ClientLogoMarquee } from "@/components/landing/ClientLogoMarquee";
 import { pdfClientLogos } from "@/data/pdfClientLogos";
 import { useState, type ReactNode } from "react";
 import { Link } from "react-router-dom";
@@ -69,8 +70,8 @@ const logos: { src: string; name: string; className?: string }[] = [
       ? { ...logo, className: "h-8 sm:h-14" }
       : logo
   ),
-  { src: icsLogo, name: "ICS", className: "h-16 sm:h-32" },
-  { src: digitalAcademy360Logo, name: "Digital Academy 360", className: "h-16 sm:h-32" },
+  { src: icsLogo, name: "ICS", className: "h-14 sm:h-24" },
+  { src: digitalAcademy360Logo, name: "Digital Academy 360", className: "h-14 sm:h-24" },
 ];
 const pointImages = [evolvingImage, heroImage, featuredSearchImage, partnerImage, realGrowthImage];
 
@@ -136,7 +137,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
                 <span className="flex -space-x-2">{avatars.map((a, i) => <span key={i} className="flex h-7 w-7 items-center justify-center overflow-hidden rounded-full border border-foreground bg-background"><img loading="lazy" decoding="async" src={a} alt="" className="h-5 w-5 object-contain" /></span>)}</span>
                 {c.hero.tags}
               </div>
-              <h1 className="mx-auto mt-6 max-w-5xl text-4xl font-semibold leading-[1.08] text-primary-foreground sm:text-6xl lg:text-7xl">
+              <h1 className="mx-auto mt-6 max-w-5xl text-[2rem] font-semibold leading-[1.12] text-primary-foreground sm:text-6xl lg:text-7xl">
                 {c.hero.title}{" "}<span className="inline-block -rotate-2 rounded-2xl bg-brand px-4 pb-1">{c.hero.highlight}</span>
               </h1>
               <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-primary-foreground/75 sm:text-lg">{c.hero.sub}</p>
@@ -167,18 +168,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
               <h2 className="text-3xl font-semibold leading-tight text-foreground sm:text-4xl lg:text-5xl">Brands you know.<br /><span className="text-brand">A team they trust.</span></h2>
               <p className="mt-5 text-base leading-relaxed text-muted-foreground">Trusted by growing brands across India.</p>
             </div>
-            <div className="mx-auto mt-10 flex max-w-6xl flex-col items-center gap-8 sm:mt-12 sm:gap-10">
-              <div className="flex w-full flex-nowrap items-center justify-center gap-x-4 sm:gap-x-14">
-                {logos.slice(0, 6).map((client) => (
-                  <img key={client.name} src={client.src} alt={client.name} className={`w-auto min-w-0 max-w-[16%] object-contain sm:max-w-[190px] ${client.className ?? "h-10 sm:h-20"}`} loading="lazy" />
-                ))}
-              </div>
-              <div className="flex w-full flex-nowrap items-center justify-center gap-x-4 sm:gap-x-14">
-                {logos.slice(6).map((client) => (
-                  <img key={client.name} src={client.src} alt={client.name} className={`w-auto min-w-0 max-w-[16%] object-contain sm:max-w-[190px] ${client.className ?? "h-10 sm:h-20"}`} loading="lazy" />
-                ))}
-              </div>
-            </div>
+            <ClientLogoMarquee logos={logos} />
           </div>
         </section>
 
