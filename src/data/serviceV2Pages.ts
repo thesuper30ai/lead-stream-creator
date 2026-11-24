@@ -141,6 +141,11 @@ export const serviceV2Pages: ServiceV2Config[] = [
     path: "/social-media-marketing-agency-bangalore",
     seo: { title: "Social Media Marketing Agency in Bangalore | SMM Services", description: "Social media marketing agency in Bangalore offering content, reels, paid social and community management that grow reach, engagement and leads.", canonical: "/social-media-marketing-agency-bangalore" },
     ctaLabel: "Get My Free Social Audit",
+    testimonials: [
+      { company: "Digital Academy 360", quote: "Their reels and creator-style videos transformed our social presence. Enquiries from Instagram and Facebook now fill our admission counsellors' calendars every week." },
+      { company: "Shivmogga Yodhas", quote: "From match-day content to fan campaigns, The Super 30 grew our following faster than we imagined. Engagement is up and sponsors now approach us because of our social reach." },
+      { company: "BambiBoo", quote: "Our Instagram went from occasional posts to a real sales channel. The UGC videos and targeted ads bring us daily orders, and the monthly reports show exactly what each rupee earned." },
+    ],
     hero: { tags: "Instagram · LinkedIn · YouTube · Meta Ads", title: "Social Media Marketing Agency in Bangalore. Content And Ads That", highlight: "Sell", sub: "We plan, shoot, and run social media marketing services in Bangalore, combining short videos, creator posts, and targeted ads that bring daily customer enquiries." },
     heroStats: [["50+", "Projects Delivered"], ["2000+", "UGC Content Delivered"], ["1 Lakh+", "Followers Achieved"], ["4.9/5", "Client Rating"]],
     about: { eyebrow: "CONTENT THAT CONVERTS", title: "Stop Posting For Likes.", highlight: "Start Winning Buyers.", text: "Operating from India's tech and creative capital, our AI social media marketing agency in Bangalore helps software firms, startups, and consumer brands turn daily content into paying customers.", bullets: ["Monthly Posting Plans Based On Real Buyer Questions", "In-House Video Scripting, Shooting & Editing", "Paid Ad Spend Tracked Directly To INR Sales"], imageAlt: "Social media content planning session" },
