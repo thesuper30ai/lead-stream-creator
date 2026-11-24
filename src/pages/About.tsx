@@ -148,7 +148,7 @@ const About = () => {
 
 
         <div id="about-faq" className="about-light about-band">
-          <div className="container mx-auto about-faq-layout"><img src={workspaceImage} alt="The team discussing a client marketing strategy" loading="lazy" /><FAQSection slug="internet-marketing-agency" /></div>
+          <div className="container mx-auto about-faq-layout"><FAQSection slug="internet-marketing-agency" /></div>
         </div>
 
         <div id="about-cta" className="about-dark about-band">

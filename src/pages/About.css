@@ -64,7 +64,7 @@
 .about-page .text-brand-gradient { background: none; color: hsl(var(--brand)); -webkit-text-fill-color: currentColor; }
 .about-page .icon-bg-glow { background: hsl(var(--brand) / .12); box-shadow: none; }
 .about-page #about-timeline .bento-card { border-radius: 8px; }
-.about-faq-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 3rem; align-items: start; }
+.about-faq-layout { display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: start; }
 .about-faq-layout > img { width: 100%; height: 540px; object-fit: cover; border-radius: 8px; }
 .about-faq-layout > section { background: transparent; padding: 0; }
 .about-faq-layout > section > .container { padding: 0; }
