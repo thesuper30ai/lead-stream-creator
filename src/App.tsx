@@ -39,6 +39,7 @@ const About = lazy(() => import("./pages/About"));
 const Work = lazy(() => import("./pages/Work"));
 const Work2 = lazy(() => import("./pages/Work2"));
 const EcommerceSeoCaseStudy = lazy(() => import("./pages/EcommerceSeoCaseStudy"));
+const DigitalAcademySeoCaseStudy = lazy(() => import("./pages/DigitalAcademySeoCaseStudy"));
 
 const Contact = lazy(() => import("./pages/Contact"));
 const Careers = lazy(() => import("./pages/Careers"));
@@ -172,6 +173,7 @@ const App = () => (
                 <Route path="/our-work" element={<Work2 />} />
                 <Route path="/our-work2" element={<Work />} />
                 <Route path="/case-studies/ecommerce-seo" element={<EcommerceSeoCaseStudy />} />
+                <Route path="/case-studies/digital-academy-360-seo" element={<DigitalAcademySeoCaseStudy />} />
 
 
                 <Route path="/contact-us" element={<Contact />} />

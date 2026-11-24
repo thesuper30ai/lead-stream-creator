@@ -1,5 +1,10 @@
 # Main page URL migration
 
+# Digital Academy 360 case study
+
+- [x] Create the education SEO case study in the Mamaearth layout using the supplied document and charts
+- [x] Link it from the Our Work SEO tab and verify figures, navigation, and phone/desktop layouts
+
 - [x] Move latest designs to the requested main URLs and preserve older designs at suffixed URLs
 - [x] Update navigation, internal links, redirects and SEO references; verify all nine destinations
 

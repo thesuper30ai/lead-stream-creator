@@ -92,6 +92,7 @@ const tabs = [
 ];
 
 const seoClients = [
+  { name: "Digital Academy 360", industry: "Education", logo: da360Logo, slug: "digital-academy-360", metrics: [{ label: "Top 3 Targets", value: "28/28" }, { label: "Organic Clicks", value: "9,951" }, { label: "AI Visibility", value: "+41%" }] },
   { name: "Book My Scans", industry: "Healthcare", logo: bookMyScansLogo, slug: "book-my-scans", bgColor: "#7ED957", reportImage: bookMyScansReport, metrics: [{ label: "Organic Traffic", value: "+320%" }, { label: "Keywords Ranked", value: "1,200+" }, { label: "Domain Authority", value: "+18" }] },
   { name: "Surana Educational Institutions", industry: "Education", logo: suranaLogo, slug: "surana-educational", bgColor: "#ffffff", reportImage: suranaReport, metrics: [{ label: "Organic Traffic", value: "+195%" }, { label: "Keywords Ranked", value: "850+" }, { label: "Lead Growth", value: "+140%" }] },
   { name: "Harvest International School", industry: "Education", logo: harvestLogo, slug: "harvest-international", bgColor: "#ffffff", reportImage: harvestReport, metrics: [{ label: "Organic Traffic", value: "+30%" }, { label: "Keywords Ranked", value: "420+" }, { label: "Visibility", value: "+65%" }] },
@@ -329,7 +330,9 @@ const BentoClientGrid = ({ clients, limit, homePreview = false, dark = false }: 
   const leadGenSlugs = new Set(leadGenClients.map((c) => c.slug));
 
   const handleViewReport = (client: typeof clients[0]) => {
-    if (client.reportImage) {
+    if (client.slug === "digital-academy-360") {
+      navigate("/case-studies/digital-academy-360-seo");
+    } else if (client.reportImage) {
       setReportImg(client.reportImage);
       setReportOpen(true);
     } else if (leadGenSlugs.has(client.slug)) {
@@ -383,13 +386,14 @@ const BentoClientGrid = ({ clients, limit, homePreview = false, dark = false }: 
                   </div>
                 )}
 
-                <button
+                <Button
+                  variant="unstyled"
                   onClick={() => handleViewReport(client)}
-                  className={`inline-flex items-center gap-2 self-start bg-brand hover:bg-brand/90 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 ${homePreview ? "px-3 py-2 text-xs" : "px-5 py-2.5 text-sm"}`}
+                  className={`inline-flex h-auto items-center gap-2 self-start bg-brand hover:bg-brand/90 text-primary-foreground font-semibold rounded-full ${homePreview ? "px-3 py-2 text-xs" : "px-5 py-2.5 text-sm"}`}
                 >
-                  View Full Report
+                  {client.slug === "digital-academy-360" ? "View Case Study" : "View Full Report"}
                   <ExternalLink className="w-3.5 h-3.5" />
-                </button>
+                </Button>
               </div>
             </div>
           </div>

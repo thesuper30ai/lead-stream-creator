@@ -5,6 +5,7 @@
 - Service "v2" pages share one data-driven template (ServiceV2Page + serviceV2Pages config) whose extra sections (problems, comparison, fit, final CTA, FAQ, headings) are optional config fields, so new pages only need a config entry and route and existing pages stay unchanged.
 - Latest page designs use the unsuffixed main routes (homepage at `/homepage`); suffixed `2` routes preserve the older designs, so navigation must always target the main routes.
 - Keep case-study campaign data separate from the page and test supplied figures, so visual redesigns cannot silently alter results.
+- New client case-study pages reuse the e-commerce case-study stylesheet with client-specific data and evidence; omit unprovided testimonials and contributor claims to avoid fabricated attribution.
 - Scope case-study visual overrides to its page stylesheet, so reference-inspired changes leave service pages unchanged.
 - Our Work 2 reuses the original portfolio, logo, testimonial, blog and CTA components with page-scoped styling, so assets and content remain shared without changing the original page.
 
