@@ -9,8 +9,6 @@ export const FloatingContactButtons = () => {
     <div className="floating-contact-stack fixed bottom-2 right-4 left-auto z-50 flex flex-col gap-3 lg:bottom-10 lg:left-6 lg:right-auto">
       {/* Phone Button */}
 
-
-      
       <a
         href={`tel:${PHONE_NUMBER}`}
         className="group relative hidden lg:flex w-12 h-12 sm:w-14 sm:h-14 bg-[hsl(var(--brand-orange))] hover:bg-[hsl(var(--brand-orange))]/90 rounded-2xl items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 border border-[hsl(var(--brand-orange))]/30"
