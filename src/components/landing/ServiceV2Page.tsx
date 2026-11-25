@@ -37,10 +37,10 @@ import anandTeam from "@/assets/team/Anand.png";
 import likhithTeam from "@/assets/team/Likhith.png";
 const team = [
   { name: "Amit Singh", role: "Co-Founder", image: amitTeam, card: "bg-[#FDE2E4]" },
-  { name: "Mayank", role: "VP - Business Growth", image: mayankTeam, card: "bg-[#D8F3DC]" },
-  { name: "Praveen", role: "Senior Creative Manager", image: praveenTeam, card: "bg-[#E5DEFF]" },
+  { name: "Mayank Swaroop", role: "VP - Business Growth", image: mayankTeam, card: "bg-[#D8F3DC]" },
+  { name: "Praveen Kumar", role: "Senior Creative Manager", image: praveenTeam, card: "bg-[#E5DEFF]" },
   { name: "Harshavardhan", role: "Graphic Designer", image: harshavardhanTeam, card: "bg-[#D7E3FC]" },
-  { name: "G. Chandrasekhar", role: "Team Leader - Digital Marketing", image: chandrasekharTeam, card: "bg-[#FFE5D9]" },
+  { name: "Chandrasekhar G", role: "Team Leader - Digital Marketing", image: chandrasekharTeam, card: "bg-[#FFE5D9]" },
   { name: "Anand Kumar", role: "Performance Marketing Manager", image: anandTeam, card: "bg-[#CFF7E5]" },
   { name: "Likhith P", role: "Video Editor", image: likhithTeam, card: "bg-[#FCE1F0]" },
 ];
