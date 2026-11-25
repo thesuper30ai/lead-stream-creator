@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import furnitureImage from "@/assets/ecommerce-seo-case-study.jpg";
 import mamaearthLogo from "@/assets/clients/mamaearth-transparent.png";
 import amitTeamJson from "@/assets/team/amit.png";
-import praveenTeamJson from "@/assets/team/praveen.png";
+import praveenTeamJson from "@/assets/team/Praveen.png";
 const amitTeam = amitTeamJson;
 const praveenTeam = praveenTeamJson;
 import trafficGrowthChart from "@/assets/case-study/traffic-growth-chart.jpg";
