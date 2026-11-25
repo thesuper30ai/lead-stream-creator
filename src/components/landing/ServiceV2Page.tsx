@@ -29,12 +29,12 @@ import upgradClientLogo from "@/assets/clients/upgrad.png";
 import icsLogo from "@/assets/logos/ics.png";
 import digitalAcademy360Logo from "@/assets/logos/digital-academy-360.png";
 import amitTeam from "@/assets/team/amit.png";
-import mayankTeam from "@/assets/team/mayank.png";
-import praveenTeam from "@/assets/team/praveen.png";
+import mayankTeam from "@/assets/team/Mayank.png";
+import praveenTeam from "@/assets/team/Praveen.png";
 import harshavardhanTeam from "@/assets/team/Harshavardhan.png";
-import chandrasekharTeam from "@/assets/team/chandrasekhar.png";
-import anandTeam from "@/assets/team/anand.png";
-import likhithTeam from "@/assets/team/likhith.png";
+import chandrasekharTeam from "@/assets/team/Chandrasekhar.png";
+import anandTeam from "@/assets/team/Anand.png";
+import likhithTeam from "@/assets/team/Likhith.png";
 const team = [
   { name: "Amit Singh", role: "Co-Founder", image: amitTeam, card: "bg-[#FDE2E4]" },
   { name: "Mayank", role: "VP - Business Growth", image: mayankTeam, card: "bg-[#D8F3DC]" },

@@ -3,21 +3,21 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import amitImg from "@/assets/team/amit.png";
 import mayankImg from "@/assets/team/Mayank.png";
-import praveenImg from "@/assets/team/praveen.png";
+import praveenImg from "@/assets/team/Praveen.png";
 import harshavardhanImg from "@/assets/team/Harshavardhan.png";
-import chandrasekharImg from "@/assets/team/chandrasekhar.png";
-import anandImg from "@/assets/team/anand.png";
+import chandrasekharImg from "@/assets/team/Chandrasekhar.png";
+import anandImg from "@/assets/team/Anand.png";
 import likhithImg from "@/assets/team/Likhith.png";
 import sujeetImg from "@/assets/team/sujeet.png";
 import swanandImg from "@/assets/team/swanandh.png";
 import madhuImg from "@/assets/team/madhu.png";
 import anushImg from "@/assets/team/Anush_raj.png";
 import abhishekImg from "@/assets/team/Abhishek.png";
-import azarudheenImg from "@/assets/team/azarudheen.png";
+import azarudheenImg from "@/assets/team/Azarudheen.png";
 import omsekharImg from "@/assets/team/Omsekhar.png";
-import ajayImg from "@/assets/team/ajay.png";
+import ajayImg from "@/assets/team/Ajay.png";
 import amirImg from "@/assets/team/amir.png";
-import devImg from "@/assets/team/dev.png";
+import devImg from "@/assets/team/Dev.png";
 import hemanImg from "@/assets/team/Heman.png";
 import jameerImg from "@/assets/team/jameer.png";
 import mahiImg from "@/assets/team/Mahi.png";
@@ -25,7 +25,7 @@ import niranjanImg from "@/assets/team/Niranjan.png";
 import rukkiniImg from "@/assets/team/Rukkini.png";
 import varunImg from "@/assets/team/Varun.png";
 import yaminiImg from "@/assets/team/Yamini.png";
-import zaidImg from "@/assets/team/Zaid.png";
+import zaidImg from "@/assets/team/zaid.png";
 const teamMembers = [
   { name: "Amit Singh", expertise: "Co-Founder", image: amitImg, card: "bg-[#FDE2E4]" },
   { name: "Mayank", expertise: "VP - Business Growth", image: mayankImg, card: "bg-[#D8F3DC]" },
