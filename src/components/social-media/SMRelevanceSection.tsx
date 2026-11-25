@@ -38,7 +38,7 @@ export const SMRelevanceSection = () => {
 
       <div className="container mx-auto px-4 relative">
         <div className={`text-center max-w-3xl mx-auto mb-6 md:mb-10 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Instant Relevance Filter</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Instant Relevance Filter</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Is This the Right Creative Partner for Your Brand?</h2>
           <p className="text-lg text-gray-300">We work with brands that value consistency, quality, and long-term creative performance across social platforms.</p>
         </div>

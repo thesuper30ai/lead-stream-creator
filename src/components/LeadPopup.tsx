@@ -129,7 +129,7 @@ const LeadPopup = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/25" />
           <div className="relative h-full flex flex-col justify-end p-7 text-white">
-            <p className="text-brand text-xs font-semibold mb-2">— FREE GROWTH CONSULTATION</p>
+            <p className="text-brand text-xs font-semibold mb-2">FREE GROWTH CONSULTATION</p>
             <h2 className="text-2xl font-semibold leading-snug mb-3">
               Get a Free Strategy Call Worth ₹5,000
             </h2>
@@ -148,7 +148,7 @@ const LeadPopup = () => {
         <div className="p-6 md:p-8">
           {/* Mobile-only heading (image panel hidden) */}
           <div className="md:hidden mb-5">
-            <p className="text-brand text-xs font-semibold mb-2">— FREE GROWTH CONSULTATION</p>
+            <p className="text-brand text-xs font-semibold mb-2">FREE GROWTH CONSULTATION</p>
             <h2 className="text-xl font-semibold leading-snug">
               Get a Free Strategy Call Worth ₹5,000
             </h2>

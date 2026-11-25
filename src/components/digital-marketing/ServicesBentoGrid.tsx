@@ -87,7 +87,7 @@ export const ServicesBentoGrid = () => (
     <div className="container mx-auto px-4">
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between max-w-6xl mx-auto mb-6 md:mb-14 gap-3">
         <div>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Our Digital Marketing Services in Bangalore</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Our Digital Marketing Services in Bangalore</p>
           <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold leading-[1.3]">
             <span className="text-brand">What</span> <span className="text-white">We Excel At</span>
           </h2>

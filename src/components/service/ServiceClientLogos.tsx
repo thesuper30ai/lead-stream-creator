@@ -2,7 +2,7 @@ import { pdfClientLogos } from "@/data/pdfClientLogos";
 import icsLogo from "@/assets/logos/ics.png";
 import academyLogo from "@/assets/logos/digital-academy-360.png";
 
-const logos = [...pdfClientLogos, { name: "ICS", src: icsLogo }, { name: "Digital Academy 360", src: academyLogo }];
+const logos = [{ name: "ICS", src: icsLogo }, { name: "Digital Academy 360", src: academyLogo }, ...pdfClientLogos];
 
 export const ServiceClientLogos = () => (
   <section className="py-14 md:py-20">

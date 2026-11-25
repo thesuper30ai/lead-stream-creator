@@ -23,7 +23,7 @@ export const ScrollToTopButton = () => {
       onClick={scrollToTop}
       aria-label="Scroll to top"
       className={cn(
-        "scroll-top-button fixed bottom-[5.5rem] right-4 z-50 flex h-12 w-12 items-center justify-center rounded-full lg:bottom-24 lg:right-6 lg:h-auto lg:w-auto lg:p-3",
+        "scroll-top-button fixed bottom-[1.5rem] right-4 z-50 flex h-12 w-12 items-center justify-center rounded-full lg:bottom-10 lg:right-6 lg:h-auto lg:w-auto lg:p-3",
         "bg-primary text-primary-foreground shadow-lg",
         "hover:scale-110 hover:shadow-xl",
         "transition-all duration-300 ease-out",

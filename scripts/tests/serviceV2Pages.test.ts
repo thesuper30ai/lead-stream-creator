@@ -1,3 +1,4 @@
+/// <reference types="bun" />
 import { expect, test } from "bun:test";
 import { serviceV2Pages } from "../../src/data/serviceV2Pages";
 
@@ -18,6 +19,19 @@ test("latest service designs resolve at all requested main URLs", () => {
 
 test("latest service canonical paths match their main URLs", () => {
   for (const page of serviceV2Pages) expect(page.seo.canonical).toBe(page.path);
+});
+test("each service page has distinct CTA copy for every shared section", () => {
+  const sections = ["hero", "about", "services", "comparison", "why", "deliverables"] as const;
+  for (const page of serviceV2Pages) {
+    const labels = sections.map((section) => page.ctaLabels[section]);
+    expect(labels.every((label) => Boolean(label))).toBe(true);
+    expect(new Set(labels).size).toBe(sections.length);
+  }
+});
+
+test("design page hero CTA uses its project-specific label", () => {
+  const design = serviceV2Pages.find((page) => page.path === "/design-agency-bangalore");
+  expect(design?.ctaLabels.hero).toBe("Start My Design Project");
 });
 
 const heroLabels = (path: string) => serviceV2Pages.find((p) => p.path === path)?.heroStats?.map(([, label]) => label) ?? [];
@@ -63,10 +77,10 @@ test("lead gen about card shows 1 Lakh+ Leads Generated", () => {
 });
 
 test("lead gen two-colour headings carry the supplied highlights", () => {
-  expect([lead?.about.title, lead?.about.highlight]).toEqual(["Turn Ad Spend Into", "Sales-Ready Enquiries."]);
-  expect([lead?.why.pre, lead?.why.highlight]).toEqual(["Lead Strategy Tied", "Directly To Sales."]);
-  expect([lead?.deliverables.title, lead?.deliverables.highlight]).toEqual(["Measurable Gains Across", "Leads, Bookings, And Sales."]);
-  expect([lead?.framework.title, lead?.framework.highlight]).toEqual(["Five Steps From First Click To", "Closed Deal."]);
+  expect([lead?.about?.title, lead?.about?.highlight]).toEqual(["Turn Ad Spend Into", "Sales-Ready Enquiries."]);
+  expect([lead?.why?.pre, lead?.why?.highlight]).toEqual(["Lead Strategy Tied", "Directly To Sales."]);
+  expect([lead?.deliverables?.title, lead?.deliverables?.highlight]).toEqual(["Measurable Gains Across", "Leads, Bookings, And Sales."]);
+  expect([lead?.framework?.title, lead?.framework?.highlight]).toEqual(["Five Steps From First Click To", "Closed Deal."]);
 });
 
 test("lead gen industries copy is tailored per industry", () => {

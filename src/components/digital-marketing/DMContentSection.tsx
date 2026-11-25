@@ -17,7 +17,7 @@ export const DMContentSection = () => (
     <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border))_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border))_1px,transparent_1px)] bg-[size:6rem_6rem] opacity-20" />
     <div className="container mx-auto px-4">
       <div className="relative text-center max-w-3xl mx-auto mb-6 md:mb-12">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Everything You Need to Know</p>
+        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand"> Everything You Need to Know</p>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
           The Complete Guide to Choosing a <span className="text-brand">Digital Marketing Agency in Bangalore</span>
         </h2>

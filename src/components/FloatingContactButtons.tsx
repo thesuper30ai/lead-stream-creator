@@ -6,7 +6,7 @@ const WHATSAPP_MESSAGE = "Hello Super 30, I would like to know more.";
 
 export const FloatingContactButtons = () => {
   return (
-    <div className="floating-contact-stack fixed bottom-6 right-4 left-auto z-50 flex flex-col gap-3 lg:bottom-24 lg:left-6 lg:right-auto">
+    <div className="floating-contact-stack fixed bottom-2 right-4 left-auto z-50 flex flex-col gap-3 lg:bottom-10 lg:left-6 lg:right-auto">
       {/* Phone Button */}
       <a
         href={`tel:${PHONE_NUMBER}`}

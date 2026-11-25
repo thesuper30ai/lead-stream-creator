@@ -50,7 +50,7 @@ export const DMIndustriesSection = ({
   <section className="py-24 md:py-32 lg:py-40 bg-background relative overflow-hidden">
     <div className="container mx-auto px-4 mb-16 md:mb-20">
       <div className="max-w-6xl mx-auto text-center">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— {eyebrow}</p>
+        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">{eyebrow}</p>
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-[1.1] mb-5">
           {title ?? <>Marketing Strategies for <span className="text-brand">Every Industry</span></>}
         </h2>

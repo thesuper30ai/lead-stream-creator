@@ -154,7 +154,7 @@ export const ServicesSection = () => {
           
           <div className="grid lg:grid-cols-2 gap-4 md:gap-8 items-center relative">
             <div>
-              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Featured Service</p>
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Featured Service</p>
               <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-3">AI Search & Intent Mapping</h3>
               <p className="text-gray-300 mb-5 leading-relaxed text-sm md:text-base">
                 Understand how AI systems interpret search queries and map your content to user intent.

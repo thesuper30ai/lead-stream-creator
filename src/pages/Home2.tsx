@@ -16,10 +16,10 @@ import foundersJson from "@/assets/home/home-founders.jpg";
 import teamMacbookJson from "@/assets/home/home-team-macbook.jpg";
 import { pdfClientLogos } from "@/data/pdfClientLogos";
 import { ClientLogoChips, logoGroups } from "@/components/landing/ClientLogoChips";
-import amitTeamJson from "@/assets/team/amit-singh-card.png";
-import mayankTeamJson from "@/assets/team/mayank-card.png";
+import amitTeamJson from "@/assets/team/amit.png";
+import mayankTeamJson from "@/assets/team/mayank.png";
 import praveenTeamJson from "@/assets/team/praveen.png";
-import harshavardhanTeamJson from "@/assets/team/harshavardhan-card.png";
+import harshavardhanTeamJson from "@/assets/team/Harshavardhan.png";
 const amitTeam = amitTeamJson;
 const mayankTeam = mayankTeamJson;
 const praveenTeam = praveenTeamJson;
@@ -59,7 +59,7 @@ const whyUs = [
 const logos = pdfClientLogos;
 
 const Eyebrow = ({ children, light }: { children: string; light?: boolean }) => (
-  <p className={`mb-3 text-sm font-semibold uppercase tracking-wider ${light ? "text-brand" : "text-brand"}`}>— {children}</p>
+  <p className={`mb-3 text-sm font-semibold uppercase tracking-wider ${light ? "text-brand" : "text-brand"}`}>{children}</p>
 );
 
 const PillCta = ({ to, children, href }: { to?: string; href?: string; children: string }) => {
@@ -115,7 +115,7 @@ const Home2 = () => (
               <img src={teamPortraitJson} alt="Super30 digital specialists" className="h-full min-h-0 w-full rounded-3xl object-cover" loading="lazy" />
             </div>
             <Link to="/internet-marketing-agency" aria-label="More about us" className="absolute left-[56.5%] top-1/2 grid h-24 w-24 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full border-4 border-background bg-brand text-primary-foreground sm:h-36 sm:w-36">
-              <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full animate-[spin_14s_linear_infinite]"><defs><path id="c" d="M50,50 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0" /></defs><text className="fill-current text-[9px] font-semibold tracking-[1.5px]"><textPath href="#c">More About Us * More About Us * More About Us *</textPath></text></svg>
+              <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full animate-[spin_14s_linear_infinite]"><defs><path id="c" d="M50,50 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0" /></defs><text className="fill-current text-[9px] font-semibold tracking-[0.1px]"><textPath href="#c">More About Us * More About Us * More About Us *</textPath></text></svg>
               <span className="grid h-11 w-11 place-items-center rounded-full bg-background text-brand"><ArrowRight className="h-5 w-5" /></span>
             </Link>
           </div>

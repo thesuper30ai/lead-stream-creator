@@ -183,7 +183,7 @@ export const ServicesDetailSection = () => {
       <div className="container mx-auto px-4 relative">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10 md:mb-14">
           <div className="max-w-2xl">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Our Services</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Our Services</p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.02] text-foreground">
               Full-Funnel <span className="text-brand">Marketing Services</span> for Modern Business Growth
             </h2>

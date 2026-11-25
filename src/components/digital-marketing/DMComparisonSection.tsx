@@ -20,7 +20,7 @@ export const DMComparisonSection = () => (
   <section className="py-8 md:py-16 lg:py-24 bg-foreground">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto mb-6 md:mb-14">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— The Difference</p>
+        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">The Difference</p>
         <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-3">
           Traditional Agency vs Our <span className="text-brand">Digital Marketing Agency in Bangalore</span>
         </h2>

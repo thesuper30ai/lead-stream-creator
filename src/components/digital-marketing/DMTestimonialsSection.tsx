@@ -49,7 +49,7 @@ export const DMTestimonialsSection = () => (
     <div className="container mx-auto px-4 mb-12 md:mb-16">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4">
         <div>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Testimonials</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Testimonials</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-[1.1]">
             What our <span className="text-brand">clients say</span>
           </h2>
