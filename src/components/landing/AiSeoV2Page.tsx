@@ -32,12 +32,12 @@ import digitalAcademy360Logo from "@/assets/logos/digital-academy-360.png";
 
 
 import amitTeam from "@/assets/team/amit.png";
-import mayankTeam from "@/assets/team/mayank.png";
-import praveenTeam from "@/assets/team/praveen.png";
+import mayankTeam from "@/assets/team/Mayank.png";
+import praveenTeam from "@/assets/team/Praveen.png";
 import harshavardhanTeam from "@/assets/team/Harshavardhan.png";
-import chandrasekharTeam from "@/assets/team/chandrasekhar.png";
-import anandTeam from "@/assets/team/anand.png";
-import likhithTeam from "@/assets/team/likhith.png";
+import chandrasekharTeam from "@/assets/team/Chandrasekhar.png";
+import anandTeam from "@/assets/team/Anand.png";
+import likhithTeam from "@/assets/team/Likhith.png";
 const seoExperts = [
   { name: "Amit Singh", role: "Co-Founder", image: amitTeam, card: "bg-[#FDE2E4]", blob: "bg-[#F9BEC7]" },
   { name: "Mayank", role: "VP - Business Growth", image: mayankTeam, card: "bg-[#D8F3DC]", blob: "bg-[#95D5B2]" },
