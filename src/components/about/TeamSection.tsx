@@ -27,6 +27,7 @@ import varunImg from "@/assets/team/Varun.png";
 import yaminiImg from "@/assets/team/Yamini.png";
 import zaidImg from "@/assets/team/zaid.png";
 import poojaImg from "@/assets/team/Pooja.png";
+
 const teamMembers = [
   { name: "Amit Singh", expertise: "Co-Founder", image: amitImg, card: "bg-[#FDE2E4]" },
   { name: "Mayank Swaroop", expertise: "VP - Business Growth", image: mayankImg, card: "bg-[#D8F3DC]" },
