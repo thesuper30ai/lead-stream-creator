@@ -6,7 +6,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Button } from "@/components/ui/button";
 import furnitureImage from "@/assets/ecommerce-seo-case-study.jpg";
 import mamaearthLogo from "@/assets/clients/mamaearth-transparent.png";
-import amitTeamJson from "@/assets/team/amit-singh-card.png";
+import amitTeamJson from "@/assets/team/amit.png";
 import praveenTeamJson from "@/assets/team/praveen.png";
 const amitTeam = amitTeamJson;
 const praveenTeam = praveenTeamJson;
@@ -37,7 +37,7 @@ const shell = "container mx-auto px-5 sm:px-6 lg:px-8";
 const title = "text-3xl md:text-4xl lg:text-5xl leading-tight font-medium";
 
 function SectionLabel({ number, children }: { number: string; children: React.ReactNode }) {
-  return <p className="mb-5 text-xs font-medium uppercase text-brand">— {number} / {children}</p>;
+  return <p className="mb-5 text-xs font-medium uppercase text-brand">{number} / {children}</p>;
 }
 
 const trafficShots = [

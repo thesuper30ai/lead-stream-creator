@@ -20,10 +20,10 @@ import bhrighuLogo from "@/assets/clients/bhrighu-academy.png";
 import smrLogo from "@/assets/clients/smr-university.png";
 import atriaLogo from "@/assets/clients/atria-institute.png";
 import { ClientLogoChips, logoGroups } from "@/components/landing/ClientLogoChips";
-import amitTeamJson from "@/assets/team/amit-singh-card.png";
-import mayankTeamJson from "@/assets/team/mayank-card.png";
+import amitTeamJson from "@/assets/team/amit.png";
+import mayankTeamJson from "@/assets/team/mayank.png";
 import praveenTeamJson from "@/assets/team/praveen.png";
-import harshavardhanTeamJson from "@/assets/team/harshavardhan-card.png";
+import harshavardhanTeamJson from "@/assets/team/Harshavardhan.png";
 const amitTeam = amitTeamJson;
 const mayankTeam = mayankTeamJson;
 const praveenTeam = praveenTeamJson;
@@ -63,7 +63,7 @@ const whyUs = [
 const logos = [magicbricksLogo, mamaearthLogo, upgradLogo, tata1mgLogo, shriramLogo, jainLogo, harvestLogo, bhrighuLogo, smrLogo, atriaLogo];
 
 const Eyebrow = ({ children }: { children: string }) => (
-  <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— {children}</p>
+  <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">{children}</p>
 );
 
 const PillCta = ({ to, children, href }: { to?: string; href?: string; children: string }) => {

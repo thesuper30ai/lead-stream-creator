@@ -20,7 +20,7 @@ export const DMAISections = () => (
   <section className="py-8 md:py-14 lg:py-20 bg-background">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto mb-6 md:mb-10">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— What Makes TheSuper30 Different?</p>
+        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">What Makes TheSuper30 Different?</p>
         <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">Integrated Digital Marketing That Drives Real Growth</h3>
         <p className="text-base md:text-lg text-muted-foreground">
           The majority of digital marketing companies in Bangalore operate within unstructured campaign frameworks. We integrate the 3 disciplines of SEO, paid media, social media, and automation into one performance based system that optimises visibility, conversions, and long-term business growth.

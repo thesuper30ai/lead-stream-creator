@@ -84,7 +84,7 @@ export const SeoAchievementsSection = ({ glow = false }: { glow?: boolean }) => 
       )}
       <div className="container relative mx-auto px-4">
         <div className="max-w-3xl">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— SEO Achievements</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">SEO Achievements</p>
           <h2 className="text-3xl font-semibold leading-tight text-primary-foreground sm:text-4xl lg:text-5xl">SEO Achievements</h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-primary-foreground/70 md:text-lg">Real clients, real rankings, real revenue — no vanity metrics, no fluff.</p>
         </div>

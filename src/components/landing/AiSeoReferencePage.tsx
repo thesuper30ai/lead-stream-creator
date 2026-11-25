@@ -131,7 +131,7 @@ export const AiSeoReferencePage = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-foreground via-foreground/90 to-foreground/5" />
         <div className="container relative mx-auto flex min-h-[720px] items-center px-4 py-16 sm:px-6 lg:min-h-[760px] lg:px-8">
           <div className="max-w-2xl pt-8">
-            <p className="mb-5 text-sm font-semibold uppercase tracking-wider text-brand">— SEO · AEO · GEO · AI Search</p>
+            <p className="mb-5 text-sm font-semibold uppercase tracking-wider text-brand"> SEO · AEO · GEO · AI Search</p>
             <h1 className="text-4xl font-semibold leading-[1.04] text-primary-foreground sm:text-5xl lg:text-7xl">
               Be Found<br />Where It Matters.<br />
               <span className="text-brand">Turn Searches<br />into Real Growth.</span>
@@ -187,7 +187,7 @@ export const AiSeoReferencePage = () => {
       <section className="bg-background py-16 md:py-24">
         <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <div className="max-w-xl">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— The new search reality</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand"> The new search reality</p>
             <h2 className="text-3xl font-semibold leading-tight text-foreground md:text-5xl">Search is evolving.<br />Are you visible?</h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">Your customers search on Google, AI tools and local platforms. We help your brand show up everywhere they are looking.</p>
             <Button onClick={openAudit} size="lg" className="mt-7 h-12 rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark">Get My Free SEO Audit <ArrowRight /></Button>
@@ -200,7 +200,7 @@ export const AiSeoReferencePage = () => {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border)/0.45)_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border)/0.45)_1px,transparent_1px)] bg-[size:52px_52px]" />
         <div className="container relative mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Industries We Serve</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Industries We Serve</p>
             <h2 className="text-3xl font-semibold leading-tight text-foreground sm:text-4xl lg:text-5xl">Built for ambitious businesses ready to grow.</h2>
             <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">AI-powered digital marketing shaped around the buying journey, competition, and opportunities in your market.</p>
           </div>
@@ -235,7 +235,7 @@ export const AiSeoReferencePage = () => {
       <section className="border-y border-border bg-muted/30 py-16 md:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-2xl">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Our services</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Our services</p>
             <h2 className="text-3xl font-semibold leading-tight text-foreground md:text-5xl">Everything you need for higher rankings and real business growth.</h2>
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -259,7 +259,7 @@ export const AiSeoReferencePage = () => {
         <div className="grid min-h-[520px] lg:grid-cols-2">
           <div className="flex items-center px-5 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-1400px)/2+2rem))]">
             <div className="max-w-xl">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Why choose The Super 30</p>
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Why choose The Super 30</p>
               <h2 className="text-3xl font-semibold leading-tight text-primary-foreground md:text-5xl">More than an SEO agency — your growth partner.</h2>
               <p className="mt-5 leading-relaxed text-primary-foreground/65">A team of specialists combining search expertise, AI visibility and accountable execution around your business goals.</p>
               <Button onClick={openAudit} size="lg" className="mt-7 h-12 rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark">Get My Free SEO Audit <ArrowRight /></Button>
@@ -279,7 +279,7 @@ export const AiSeoReferencePage = () => {
           </div>
           <div className="flex items-center px-5 py-14 sm:px-10 lg:px-16">
             <div className="w-full max-w-2xl">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Results that matter</p>
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Results that matter</p>
               <h2 className="text-3xl font-semibold leading-tight text-foreground md:text-5xl">Real businesses.<br />Real growth.</h2>
               <div className="mt-8 grid gap-5 sm:grid-cols-2">
                 {results.map((result) => (
@@ -304,7 +304,7 @@ export const AiSeoReferencePage = () => {
       <section className="border-y border-border bg-background py-16 md:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12 grid gap-6 md:grid-cols-2 md:items-end">
-            <div><p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Our process</p><h2 className="text-3xl font-semibold leading-tight text-foreground md:text-5xl">A simple, proven<br />path to growth.</h2></div>
+            <div><p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Our process</p><h2 className="text-3xl font-semibold leading-tight text-foreground md:text-5xl">A simple, proven<br />path to growth.</h2></div>
             <p className="max-w-md text-muted-foreground md:justify-self-end">From audit to scale, we follow a structured process designed for long-term search growth.</p>
           </div>
           <div className="relative grid gap-8 sm:grid-cols-2 lg:grid-cols-6 lg:gap-5">
@@ -320,7 +320,7 @@ export const AiSeoReferencePage = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-foreground via-foreground/80 to-transparent" />
             <div className="container relative mx-auto flex min-h-[500px] items-center px-4 py-14 sm:px-6 lg:px-8">
               <div className="max-w-xl">
-                <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-brand">— Featured service</p>
+                <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-brand">Featured service</p>
                 <h2 className="text-3xl font-semibold leading-tight text-primary-foreground sm:text-4xl md:text-5xl">AI Search &amp;<br /><span className="text-brand">Intent Mapping</span></h2>
                 <p className="mt-5 max-w-lg leading-relaxed text-primary-foreground/70">Understand how AI systems interpret search queries and map your content to user intent. We help your brand appear in conversations, not just traditional search results.</p>
                 <ul className="mt-7 space-y-3 text-sm text-primary-foreground/80">
@@ -336,7 +336,7 @@ export const AiSeoReferencePage = () => {
           <div className="border-y border-border bg-background">
             <div className="container mx-auto grid px-4 sm:px-6 lg:grid-cols-[0.72fr_1.28fr] lg:px-8">
             <div className="border-b border-border py-8 sm:py-10 lg:border-b-0 lg:border-r lg:pr-10">
-              <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-brand">— AI visibility</p>
+              <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-brand"> AI visibility</p>
               <h3 className="text-2xl font-semibold leading-tight text-foreground sm:text-3xl">AI Prompt &amp;<br />Generative Search Optimization</h3>
               <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">Optimize your content to appear in AI-generated answers and become a trusted source that language models can understand and cite.</p>
               <Button onClick={openAudit} variant="outline" className="mt-6 rounded-full border-brand text-brand hover:bg-brand hover:text-primary-foreground">Get AI-Ready <ArrowRight /></Button>
@@ -362,7 +362,7 @@ export const AiSeoReferencePage = () => {
         <div className="absolute inset-0 opacity-25"><img src={heroImage} alt="" loading="lazy" className="h-full w-full object-cover object-bottom" /></div>
         <div className="absolute inset-0 bg-gradient-to-r from-foreground via-foreground/95 to-foreground/70" />
         <div className="container relative mx-auto grid gap-8 px-4 sm:px-6 md:grid-cols-2 md:items-end lg:px-8">
-          <div><p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Ready to grow?</p><h2 className="text-3xl font-semibold leading-tight text-primary-foreground md:text-5xl">Let’s build your<br />search growth strategy.</h2></div>
+          <div><p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand"> Ready to grow?</p><h2 className="text-3xl font-semibold leading-tight text-primary-foreground md:text-5xl">Let’s build your<br />search growth strategy.</h2></div>
           <div className="md:justify-self-end"><p className="max-w-lg text-sm leading-relaxed text-primary-foreground/65">Get a clear view of your current search visibility, biggest opportunities and the actions that will drive qualified growth.</p><div className="mt-6 flex flex-col gap-3 sm:flex-row"><Button onClick={openAudit} size="lg" className="h-12 rounded-full bg-brand px-7 text-primary-foreground hover:bg-brand-dark">Get My Free SEO Audit <ArrowRight /></Button><Button asChild variant="outline" size="lg" className="h-12 rounded-full border-primary-foreground/35 bg-transparent px-7 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"><Link to="/booking">Book a Strategy Call</Link></Button></div></div>
         </div>
       </section>

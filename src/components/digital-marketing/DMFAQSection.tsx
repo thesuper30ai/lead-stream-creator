@@ -15,7 +15,7 @@ export const DMFAQSection = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left: Header */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— FAQs</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand"> FAQs</p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-[1.1] mb-6">
               Frequently asked<br />
               <span className="text-brand">questions</span>

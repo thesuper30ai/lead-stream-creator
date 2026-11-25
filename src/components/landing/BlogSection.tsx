@@ -54,7 +54,7 @@ export const BlogSection = forwardRef<HTMLElement, { dark?: boolean }>(({ dark =
 
       <div className="container mx-auto px-4 relative">
         <div className="text-center max-w-3xl lg:max-w-4xl mx-auto mb-5 md:mb-10">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Blog</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand"> Blog</p>
           <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 ${dark ? "text-primary-foreground" : "text-foreground"}`}>
             Latest Insights
           </h2>

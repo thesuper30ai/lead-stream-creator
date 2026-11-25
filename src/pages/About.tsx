@@ -87,7 +87,7 @@ const About = () => {
         <section id="about-hero" className="about-hero">
           <img src={heroImage} alt="The digital marketing team collaborating on a growth strategy" fetchPriority="high" />
           <div className="container mx-auto py-16 md:py-24">
-            <p className="about-eyebrow">— 30+ Digital Marketing Experts</p>
+            <p className="about-eyebrow">30+ Digital Marketing Experts</p>
             <h1>Meet the Team Behind<br /><span className="text-brand">Your Growth Story.</span></h1>
             <p className="about-hero-description mt-6 text-base leading-relaxed md:text-lg">From emerging startups to established enterprises, our 30+ specialists in SEO, performance marketing, design, content and web turn marketing spend into measurable business growth. Ex-Google expertise, AI-powered execution and full transparency on every campaign we run.</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -109,7 +109,7 @@ const About = () => {
               <div className="about-photo-note"><Award className="text-brand h-7 w-7" /><div><strong>10+ Years</strong><span>of Excellence</span></div></div>
             </div>
             <div>
-              <p className="about-eyebrow">— PEOPLE. STRATEGY. GROWTH.</p>
+              <p className="about-eyebrow">PEOPLE. STRATEGY. GROWTH.</p>
               <h2>The Best <span className="text-brand">Digital Marketing Experts</span> Driving Measurable Business Growth</h2>
               <p className="about-copy">Success in today's digital landscape requires more than marketing tools. Our team of digital marketing experts combines industry experience, strategic insights, and performance driven execution to help businesses increase visibility, generate quality leads, and achieve sustainable growth.</p>
               <div className="about-intro-details">
@@ -123,7 +123,7 @@ const About = () => {
         <section id="about-mission" className="about-dark about-band">
           <div className="container mx-auto">
             <div className="about-section-heading">
-              <p className="about-eyebrow">— OUR MISSION</p>
+              <p className="about-eyebrow">OUR MISSION</p>
               <h2>A Human-Driven Internet Marketing Agency for the <span className="text-brand">AI Era</span></h2>
               <p className="about-copy">We believe that a great internet marketing agency should act as a true partner to your business. Our online marketing agency works with total transparency and passion to turn complex growth goals into measurable results.</p>
             </div>

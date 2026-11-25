@@ -26,7 +26,7 @@ const Work2 = () => {
         <section className="work2-hero" id="work-hero">
           <img src={heroImage} alt="Digital marketing team collaborating on client campaigns" className="work2-hero-image" fetchPriority="high" />
           <div className="container mx-auto py-16 md:py-24">
-            <p className="work2-eyebrow">— 300+ Proven Success Stories</p>
+            <p className="work2-eyebrow">300+ Proven Success Stories</p>
             <h1>Successfully Achieved Digital Marketing Growth <span className="text-brand">for 300+ Brands</span></h1>
             <p className="work2-hero-description mt-6 text-base leading-relaxed md:text-lg">From emerging startups to established enterprises, Meet leading brands in Bangalore that grew sustainably with TheSuper30. Highly successful digital marketing case studies and performance, with 98% client satisfaction in SEO, ads, web and design.</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">

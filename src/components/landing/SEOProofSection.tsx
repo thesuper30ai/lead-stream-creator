@@ -88,7 +88,7 @@ export const SEOProofSection = ({ layout = "carousel" }: SEOProofSectionProps) =
       <section className="py-16 md:py-24 bg-muted/30 border-y border-border/50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Proof Of SEO Work</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Proof Of SEO Work</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
               Real Rankings. Real Traffic. Real Revenue.
             </h2>
@@ -189,7 +189,7 @@ export const SEOProofSection = ({ layout = "carousel" }: SEOProofSectionProps) =
     <section className="py-16 md:py-24 bg-muted/30 border-y border-border/50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Proof Of SEO Work</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Proof Of SEO Work</p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Real Rankings. Real Traffic. Real Revenue.
           </h2>

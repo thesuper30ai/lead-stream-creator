@@ -7,10 +7,12 @@ import {
 } from "lucide-react";
 
 type Item = { icon: LucideIcon; title: string; description: string };
+type ServiceV2CtaSection = "hero" | "about" | "services" | "comparison" | "why" | "deliverables";
 export type ServiceV2Config = {
   path: string;
   seo: { title: string; description: string; canonical: string };
   ctaLabel: string;
+  ctaLabels: Partial<Record<ServiceV2CtaSection, string>>;
   hero: { tags: string; title: string; highlight: string; sub: string };
   heroStats?: [string, string][];
   about: { eyebrow: string; title: string; highlight: string; text: string; bullets: string[]; imageAlt: string };
@@ -50,7 +52,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
   {
     path: "/lead-generation-agency-bangalore",
     seo: { title: "Lead Generation Agency in Bangalore | B2B Leads That Convert", description: "Trusted lead generation company in Bangalore helping B2B businesses attract & convert high-value leads. Real pipeline growth & measurable results. Let's Talk!", canonical: "/lead-generation-agency-bangalore" },
-    ctaLabel: "Get My Free Lead Gen Audit",
+    ctaLabel: "Book A Strategy Call",
+    ctaLabels: { hero: "Build My Lead Pipeline", about: "Plan My Lead Strategy", services: "Discuss Lead Generation", comparison: "Compare Lead Gen Options", why: "Talk to a Lead Expert", deliverables: "Get My Lead Plan" },
     testimonials: [
       { company: "Metercube", quote: "The Super 30's lead generation campaigns filled our pipeline with serious buyers. Cost per qualified lead dropped month after month while enquiry volume kept climbing." },
       { company: "ICS", quote: "Their ad funnels and landing pages turned our campaigns into a steady stream of admission enquiries. The lead quality is far better than anything we saw before." },
@@ -140,7 +143,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
   {
     path: "/social-media-marketing-agency-bangalore",
     seo: { title: "Social Media Marketing Agency in Bangalore | SMM Services", description: "Social media marketing agency in Bangalore offering content, reels, paid social and community management that grow reach, engagement and leads.", canonical: "/social-media-marketing-agency-bangalore" },
-    ctaLabel: "Get My Free Social Audit",
+    ctaLabel: "Book A Strategy Call",
+    ctaLabels: { hero: "Grow My Social Presence", about: "Plan My Social Strategy", services: "Discuss Social Media Services", comparison: "Compare Social Media Plans", why: "Talk to a Social Expert", deliverables: "Get My Social Growth Plan" },
     testimonials: [
       { company: "Digital Academy 360", quote: "Their reels and creator-style videos transformed our social presence. Enquiries from Instagram and Facebook now fill our admission counsellors' calendars every week." },
       { company: "Shivmogga Yodhas", quote: "From match-day content to fan campaigns, The Super 30 grew our following faster than we imagined. Engagement is up and sponsors now approach us because of our social reach." },
@@ -230,7 +234,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
   {
     path: "/google-ads-agency-bangalore",
     seo: { title: "Google Ads Agency in Bangalore | PPC Service | Upto 10X ROAS", description: "Google Ads agency in Bangalore running Search, Shopping, YouTube and Performance Max campaigns focused on ROAS, lower CPC and qualified leads.", canonical: "/google-ads-agency-bangalore" },
-    ctaLabel: "Get My Free Google Ads Audit",
+    ctaLabel: "Speak With an Expert",
+    ctaLabels: { hero: "Improve My Google Ads", about: "Plan My PPC Strategy", services: "Discuss My Ad Campaigns", comparison: "Compare Google Ads Options", why: "Talk to a PPC Expert", deliverables: "Get My PPC Growth Plan" },
     testimonials: [
       { company: "Metercube", quote: "The Super 30's lead generation campaigns filled our pipeline with serious buyers. Cost per qualified lead dropped month after month while enquiry volume kept climbing." },
       { company: "ICS", quote: "Their ad funnels and landing pages turned our campaigns into a steady stream of admission enquiries. The lead quality is far better than anything we saw before." },
@@ -320,7 +325,8 @@ export const serviceV2Pages: ServiceV2Config[] = [
   {
     path: "/design-agency-bangalore",
     seo: { title: "Design Agency in Bangalore | UI/UX, Branding, Video & Photography", description: "Creative design company in Bangalore for UI/UX, brand identity, video production and photography. 100+ brands, 98% satisfaction. Let's Connect!", canonical: "/design-agency-bangalore" },
-    ctaLabel: "Start My Design Project",
+    ctaLabel: "Book A Brand Design Call",
+    ctaLabels: { hero: "Start My Design Project", about: "Discuss My Design Needs", services: "Plan My Design Brief", comparison: "Compare Design Options", why: "Talk to a Design Expert", deliverables: "Get My Design Proposal" },
     testimonials: [
       { quote: "The brand identity they designed made us look like a market leader overnight. Customers now recognise us instantly, and our packaging finally matches the quality of our product." },
       { quote: "From logo to pitch deck to social templates, everything feels like one brand. Our sales presentations finally look as premium as the service we deliver." },
@@ -410,6 +416,7 @@ export const serviceV2Pages: ServiceV2Config[] = [
     path: "/content-marketing-agency-bangalore",
     seo: { title: "Content Marketing Agency in Bangalore | Website, Blogs, Scripts & PR", description: "Content marketing agency in Bangalore for website content, SEO blogs, scripts, articles and PR that rank, engage and convert.", canonical: "/content-marketing-agency-bangalore" },
     ctaLabel: "Get My Free Content Audit",
+    ctaLabels: { hero: "Grow My Content Strategy", about: "Plan My Content Marketing", services: "Discuss Content Services", comparison: "Compare Content Options", why: "Talk to a Content Expert", deliverables: "Get My Content Roadmap" },
     testimonials: [
       { quote: "Their blogs and guides brought us steady organic traffic that actually converts. Buyers now find us through search instead of us chasing them with ads." },
       { quote: "The content team writes like they have worked in our industry for years. Every article answers real buyer questions and our sales team uses them daily." },
@@ -486,6 +493,7 @@ export const serviceV2Pages: ServiceV2Config[] = [
     path: "/content-writing-agency-bangalore",
     seo: { title: "Copywriting & Content Writing Agency in Bangalore", description: "Copywriting done by experienced writers, customized for your business. Content writing services in Bangalore that build authority and trust for brands.", canonical: "/content-writing-agency-bangalore" },
     ctaLabel: "Get Free Content Audit",
+    ctaLabels: { hero: "Improve My Content", about: "Get My Free Content Audit", services: "Discuss Content Writing", comparison: "Compare Writing Options", why: "Talk to a Content Writer", deliverables: "Get My Editorial Roadmap" },
     hero: { tags: "Content Writing Company in Bangalore", title: "Copywriting And Content Writing Agency in", highlight: "Bangalore", sub: "Strategic content helps businesses attract the right audience and improve brand visibility. Our content writing services in Bangalore are created by experienced writers for SEO blogs, website copy, scripts, and guest content to build authority and trust." },
     heroStats: [["300%+", "Avg. Traffic Growth"], ["50+", "AI Audits Delivered"], ["$2M+", "Revenue Generated"], ["4.8/5", "Client Rating"]],
     about: { eyebrow: "Free content audit", title: "Get a Free", highlight: "Content Audit.", text: "Bangalore's leading content writing agency will review your existing copy and outline a strategy to grow traffic and conversions.", bullets: ["SEO Driven Content Strategy", "Average 3x Organic Traffic Growth", "100% Original Human Written Content"], imageAlt: "Content team reviewing website copy and traffic results" },
@@ -546,6 +554,7 @@ export const serviceV2Pages: ServiceV2Config[] = [
     path: "/website-design-company-bangalore",
     seo: { title: "Website Design Company in Bangalore | E-commerce, WordPress & Custom", description: "Website design company in Bangalore building e-commerce, WordPress and custom-coded websites that are fast, SEO-ready and built to convert.", canonical: "/website-design-company-bangalore" },
     ctaLabel: "Get My Free Website Audit",
+    ctaLabels: { hero: "Plan My New Website", about: "Discuss My Website Goals", services: "Explore Website Services", comparison: "Compare Website Options", why: "Talk to a Web Expert", deliverables: "Get My Website Plan" },
     testimonials: [
       { quote: "Our new website loads in seconds and looks stunning on every device. Enquiries through the site doubled within the first month of going live." },
       { quote: "They rebuilt our site around conversions, not just looks. Every page guides visitors toward calling us, and the difference in lead quality is obvious." },
@@ -622,6 +631,7 @@ export const serviceV2Pages: ServiceV2Config[] = [
     path: "/sms-marketing-agency-bangalore",
     seo: { title: "SMS & WhatsApp Marketing Company in Bangalore | Customer Engagement", description: "Bulk SMS, WhatsApp Business API, RCS and customer engagement platforms in Bangalore that reach customers instantly and drive conversions.", canonical: "/sms-marketing-agency-bangalore" },
     ctaLabel: "Get My Free Messaging Audit",
+    ctaLabels: { hero: "Grow My Messaging", about: "Plan My Messaging Strategy", services: "Discuss Messaging Services", comparison: "Compare Messaging Options", why: "Talk to a Messaging Expert", deliverables: "Get My Messaging Plan" },
     testimonials: [
       { quote: "WhatsApp campaigns now bring us repeat orders every single week. The open rates are unbelievable compared to email, and customers actually reply." },
       { quote: "Their SMS and WhatsApp automation recovered so many abandoned carts. It runs on its own now and quietly adds revenue every day." },

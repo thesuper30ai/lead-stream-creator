@@ -207,7 +207,7 @@ const Contact = () => {
         {/* Hero Section */}
         <section id="contact-hero" className="contact-hero">
           <div className="container mx-auto">
-            <p className="contact-eyebrow">— GET IN TOUCH</p>
+            <p className="contact-eyebrow">GET IN TOUCH</p>
             <h1>Ready to Accelerate Your Business Growth<span className="text-brand">?</span></h1>
             <p className="contact-hero-copy">
               Connect with TheSuper30 and discover how strategic digital marketing, creative execution, and performance driven campaigns can help your business generate more leads, increase visibility, and achieve measurable growth.
@@ -454,7 +454,7 @@ const Contact = () => {
               {/* Contact Info */}
               <div className="h-full flex flex-col">
                 <div>
-                  <p className="contact-eyebrow">— CONTACT DETAILS</p>
+                  <p className="contact-eyebrow">CONTACT DETAILS</p>
                   <h2 className="contact-info-title">Get in touch</h2>
                   <p className="contact-info-copy">
                     Have a question or ready to start? Reach out through any of these channels and we'll respond within 24 hours.

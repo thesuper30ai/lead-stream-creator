@@ -28,10 +28,10 @@ import mamaearthClientLogo from "@/assets/clients/mamaearth.png";
 import upgradClientLogo from "@/assets/clients/upgrad.png";
 import icsLogo from "@/assets/logos/ics.png";
 import digitalAcademy360Logo from "@/assets/logos/digital-academy-360.png";
-import amitTeam from "@/assets/team/amit-singh-card.png";
-import mayankTeam from "@/assets/team/mayank-card.png";
+import amitTeam from "@/assets/team/amit.png";
+import mayankTeam from "@/assets/team/mayank.png";
 import praveenTeam from "@/assets/team/praveen.png";
-import harshavardhanTeam from "@/assets/team/harshavardhan-card.png";
+import harshavardhanTeam from "@/assets/team/Harshavardhan.png";
 import chandrasekharTeam from "@/assets/team/chandrasekhar.png";
 import anandTeam from "@/assets/team/anand.png";
 import likhithTeam from "@/assets/team/likhith.png";
@@ -108,6 +108,7 @@ const Stars = ({ light }: { light?: boolean }) => (
 export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
   const [open, setOpen] = useState(false);
   const cta = () => setOpen(true);
+  const ctaLabel = (section: keyof NonNullable<ServiceV2Config["ctaLabels"]>) => c.ctaLabels[section] ?? c.ctaLabel;
   const svcCols = c.services.length % 5 === 0 ? "lg:grid-cols-5" : "lg:grid-cols-4";
 
   return (
@@ -142,7 +143,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
               </h1>
               <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-primary-foreground/75 sm:text-lg">{c.hero.sub}</p>
               <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <Pill onClick={cta}>{c.ctaLabel}</Pill>
+                <Pill onClick={cta}>{ctaLabel("hero")}</Pill>
                 <Link to="/our-work" className="text-sm font-semibold text-primary-foreground underline-offset-4 hover:underline">View Case Studies</Link>
               </div>
               <p className="mt-12 text-sm text-primary-foreground/80">Trusted by <b className="text-primary-foreground">250+</b> Brands That Value Real Results</p>
@@ -193,7 +194,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
               <ul className="mt-6 space-y-3">
                 {c.about.bullets.map((x) => <li key={x} className="flex items-center gap-3 text-foreground"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand"><Check className="h-3.5 w-3.5 text-primary-foreground" /></span>{x}</li>)}
               </ul>
-              <div className="mt-8"><Pill onClick={cta}>{c.ctaLabel}</Pill></div>
+              <div className="mt-8"><Pill onClick={cta}>{ctaLabel("about")}</Pill></div>
             </div>
           </div>
         </section>
@@ -318,7 +319,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
             <p className="mt-10 text-center text-muted-foreground">
               <span className="mr-2 rounded-full bg-brand px-3 py-1 text-xs font-semibold text-primary-foreground">Free</span>
               {c.servicesFooter}{" "}
-              <button type="button" onClick={cta} className="font-semibold text-foreground underline underline-offset-4 hover:text-brand">Let's Get Started.</button>
+              <button type="button" onClick={cta} className="font-semibold text-foreground underline underline-offset-4 hover:text-brand">{ctaLabel("services")}</button>
             </p>
           </div>
         </section>
@@ -348,7 +349,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
                 </ul>
               </div>
             </div>
-            <div className="mt-12 text-center"><Pill onClick={cta}>{c.ctaLabel}</Pill></div>
+            <div className="mt-12 text-center"><Pill onClick={cta}>{ctaLabel("comparison")}</Pill></div>
           </div>
         </section>
         )}
@@ -382,7 +383,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
                     </div>
                   ))}
                 </div>
-                <div className="mt-7 flex flex-wrap items-center gap-6"><Pill onClick={cta}>{c.ctaLabel}</Pill><Stars light /></div>
+                <div className="mt-7 flex flex-wrap items-center gap-6"><Pill onClick={cta}>{ctaLabel("why")}</Pill><Stars light /></div>
               </div>
             </div>
           </div>
@@ -408,7 +409,7 @@ export const ServiceV2Page = ({ c }: { c: ServiceV2Config }) => {
                 </article>
               ))}
             </div>
-            <div className="mt-12 text-center"><Pill onClick={cta}>{c.ctaLabel}</Pill></div>
+            <div className="mt-12 text-center"><Pill onClick={cta}>{ctaLabel("deliverables")}</Pill></div>
           </div>
         </section>
 

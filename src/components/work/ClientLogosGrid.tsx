@@ -43,7 +43,7 @@ export const ClientLogosGrid = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className={`text-center mb-10 md:mb-12 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">— Our Clients</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand">Our Clients</p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-3">
             Trusted by 250+ Brands
           </h2>

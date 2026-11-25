@@ -31,10 +31,10 @@ import icsLogo from "@/assets/logos/ics.png";
 import digitalAcademy360Logo from "@/assets/logos/digital-academy-360.png";
 
 
-import amitTeam from "@/assets/team/amit-singh-card.png";
-import mayankTeam from "@/assets/team/mayank-card.png";
+import amitTeam from "@/assets/team/amit.png";
+import mayankTeam from "@/assets/team/mayank.png";
 import praveenTeam from "@/assets/team/praveen.png";
-import harshavardhanTeam from "@/assets/team/harshavardhan-card.png";
+import harshavardhanTeam from "@/assets/team/Harshavardhan.png";
 import chandrasekharTeam from "@/assets/team/chandrasekhar.png";
 import anandTeam from "@/assets/team/anand.png";
 import likhithTeam from "@/assets/team/likhith.png";
@@ -196,7 +196,7 @@ export const AiSeoV2Page = () => {
               As a performance-driven SEO agency in Bangalore, we combine technical precision, authority content, and AI search optimization to grow qualified leads and sales.
             </p>
             <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Pill onClick={openAudit}>Get My Free SEO Audit</Pill>
+              <Pill onClick={openAudit}>Get A Free SEO Audit</Pill>
               <Link to="/our-work" className="text-sm font-semibold text-primary-foreground underline-offset-4 hover:underline">View Case Studies</Link>
             </div>
 
