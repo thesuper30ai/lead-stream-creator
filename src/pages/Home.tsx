@@ -55,13 +55,11 @@ import bhrighuLogo from "@/assets/clients/bhrighu-academy.png";
 import smrLogo from "@/assets/clients/smr-university.png";
 import atriaLogo from "@/assets/clients/atria-institute.png";
 import lancesoftLogo from "@/assets/clients/lancesoft.png";
-import amitTeam from "@/assets/team/amit-singh.png";
-import mayankTeam from "@/assets/team/mayank-1.png";
-import praveenTeam from "@/assets/team/praveen-1.png";
-import harshavardhanTeam from "@/assets/team/harshavardhan.png";
+import amitTeam from "@/assets/team/amit.png";
+import mayankTeam from "@/assets/team/Mayank.png";
+import praveenTeam from "@/assets/team/Praveen.png";
+import harshavardhanTeam from "@/assets/team/Harshavardhan.png";
 import chandrasekharTeam from "@/assets/team/chandrashekar.png";
-import anandTeam from "@/assets/team/anand-3.png";
-import likhithTeam from "@/assets/team/likith-1.png";
 
 const BlogSection = lazy(() => import("@/components/landing/BlogSection").then((m) => ({ default: m.BlogSection })));
 
@@ -92,9 +90,7 @@ const teamMembers = [
   { name: "Praveen", expertise: "Senior Creative Manager", category: "Creative", image: praveenTeam },
   { name: "Harshavardhan", expertise: "Graphic Designer", category: "Creative", image: harshavardhanTeam },
   { name: "G. Chandrasekhar", expertise: "Team Leader - Digital Marketing", category: "Strategy", image: chandrasekharTeam },
-  { name: "Anand Kumar", expertise: "Performance Marketing Manager", category: "Performance", image: anandTeam },
-  { name: "Likhith P", expertise: "Video Editor", category: "Creative", image: likhithTeam },
-];
+ ];
 
 const teamCategories = ["All", "Strategy", "Performance", "Creative"];
 
