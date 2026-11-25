@@ -59,7 +59,7 @@ import amitTeam from "@/assets/team/amit.png";
 import mayankTeam from "@/assets/team/Mayank.png";
 import praveenTeam from "@/assets/team/Praveen.png";
 import harshavardhanTeam from "@/assets/team/Harshavardhan.png";
-import chandrasekharTeam from "@/assets/team/chandrashekar.png";
+import chandrasekharTeam from "@/assets/team/Chandrasekhar.png";
 
 const BlogSection = lazy(() => import("@/components/landing/BlogSection").then((m) => ({ default: m.BlogSection })));
 
