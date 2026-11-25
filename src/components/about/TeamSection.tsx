@@ -26,6 +26,7 @@ import rukkiniImg from "@/assets/team/Rukkini.png";
 import varunImg from "@/assets/team/Varun.png";
 import yaminiImg from "@/assets/team/Yamini.png";
 import zaidImg from "@/assets/team/zaid.png";
+import poojaImg from "@/assets/team/Pooja.png";
 const teamMembers = [
   { name: "Amit Singh", expertise: "Co-Founder", image: amitImg, card: "bg-[#FDE2E4]" },
   { name: "Mayank Swaroop", expertise: "VP - Business Growth", image: mayankImg, card: "bg-[#D8F3DC]" },
@@ -37,7 +38,8 @@ const teamMembers = [
   { name: "Praveen Kumar", expertise: "Senior Creative Manager", image: praveenImg, card: "bg-[#E5DEFF]" },
   { name: "Harshavardhan", expertise: "Graphic Designer", image: harshavardhanImg, card: "bg-[#D7E3FC]" },
   { name: "Devendra Dhimmar", expertise: "Graphic Designer", image: devImg, card: "bg-[#D8F3DC]" },
-  { name: "Om Sekhar Sura", role: "Full Stack Developer", image: omsekharImg, card: "bg-[#FFE5D9]" },
+  { name: "Om Sekhar Sura", expertise: "Full Stack Developer", image: omsekharImg, card: "bg-[#FFE5D9]" },
+  { name: "Pooja R", expertise: "AI Engineer", image: poojaImg, card: "bg-[#D8F3DC]" },
   { name: "Madhu Raj P", expertise: "SEO Specialist", image: madhuImg, card: "bg-[#CFF7E5]" },
   { name: "Abhishek B", expertise: "SEO Specialist", image: abhishekImg, card: "bg-[#FDE2E4]" },
   { name: "Mohammad Azarudheen", expertise: "SEO Specialist", image: azarudheenImg, card: "bg-[#D8F3DC]" },

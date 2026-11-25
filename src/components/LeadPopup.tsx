@@ -219,7 +219,7 @@ const LeadPopup = () => {
                 <SelectTrigger id="popup-service" name="service">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="z-[110]">
                   <SelectItem value="ai-seo">AI SEO</SelectItem>
                   <SelectItem value="lead-generation">Lead Generation</SelectItem>
                   <SelectItem value="social-media">Social Media Management</SelectItem>

@@ -266,7 +266,7 @@ export const EnquiryPopup = ({ open, onOpenChange }: EnquiryPopupProps) => {
             <SelectTrigger className="h-11 bg-muted/40 border-0 rounded-xl focus:ring-2 focus:ring-primary/20">
               <SelectValue placeholder="Your role" />
             </SelectTrigger>
-            <SelectContent className="rounded-xl">
+            <SelectContent className="z-[110] rounded-xl">
               {roleOptions.map((option) => (
                 <SelectItem
                   key={option.value}
@@ -284,7 +284,7 @@ export const EnquiryPopup = ({ open, onOpenChange }: EnquiryPopupProps) => {
             <SelectTrigger className="h-11 bg-muted/40 border-0 rounded-xl focus:ring-2 focus:ring-primary/20">
               <SelectValue placeholder="Service interest" />
             </SelectTrigger>
-            <SelectContent className="rounded-xl">
+            <SelectContent className="z-[110] rounded-xl">
               {serviceOptions.map((option) => (
                 <SelectItem
                   key={option.value}
